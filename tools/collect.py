@@ -112,7 +112,8 @@ def write_summary(out):
     cols = ["rw_dbgregs", "rw_vgic_sysregs", "rw_controls", "rw_state_dirty", "rw_extregs",
             "ro_exit_esr", "ro_state_valid", "ro_ich_vtr", "ro_svcr", "ro_sme_ptr"]
     lines = ["# hv guest-context layouts", "",
-             "From each Kernel Debug Kit's DWARF (`kernel.release.t8132`); offsets/sizes in bytes,",
+             "From each Kernel Debug Kit's DWARF (`kernel.release.<soc>`, the newest SoC in the kit);",
+             "offsets/sizes in bytes,",
              "RO page at +0x4000.", "",
              "| version | " + " | ".join(cols) + " | builds |",
              "|---" * (len(cols) + 2) + "|"]

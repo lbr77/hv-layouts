@@ -42,12 +42,11 @@ jobs:
     timeout-minutes: 30
     strategy:
       fail-fast: false
-      max-parallel: 4
+      max-parallel: 10
       matrix:
         build: ${{ fromJSON(needs.plan.outputs.builds) }}
     env:
       GH_TOKEN: ${{ github.token }}
-      SOC: t8132
     steps:
       - uses: actions/checkout@v4
       - name: Tools
@@ -56,6 +55,20 @@ jobs:
           sudo apt-get install -y -qq 7zip lldb-18 python3-lldb-18
       - name: Fetch the KDK
         run: tools/fetch.sh "${{ matrix.build }}" work
+      - name: Pick a kernel
+        # The layout is the same in every SoC's kernel of a build; t8132 (M4)
+        # only exists from macOS 15.1, so older kits use the newest they have.
+        run: |
+          python3 - >> "$GITHUB_ENV" <<'EOF'
+          import json
+          have = json.load(open("work/kernel_versions.json"))
+          for soc in ("t8132", "t8122", "t8112", "t8103"):
+              if "kernel.release." + soc in have:
+                  print("SOC=" + soc)
+                  break
+          else:
+              raise SystemExit("no Apple silicon release kernel in this kit")
+          EOF
       - name: Take the kernel and its dSYM out of it
         run: python3 tools/kdk_extract.py --dmg work/kdk.dmg work/kernels "$SOC"
       - name: Layout and version

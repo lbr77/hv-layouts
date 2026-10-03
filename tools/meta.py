@@ -5,12 +5,14 @@ import json, os, re, sys
 build, work, out, soc = sys.argv[1:5]
 name = open(os.path.join(work, "release-name.txt")).read().strip()
 versions = json.load(open(os.path.join(work, "kernel_versions.json")))
-# A build number's first two digits are macOS's major version minus one
-# (24x: 15, 25x: 26, 26x: 27); the mirror's release titles are not always
-# right about it, so they are kept as they are and not trusted.
+# The macOS major version from the build number's first two digits: 20x-24x
+# are macOS 11-15, and from 25x (macOS 26) the two numbers are one apart.
+# The mirror's release titles are not always right about it, so they are
+# kept as they are and not trusted.
+prefix = int(re.match(r"\d+", build).group())
 json.dump({
     "build": build,
-    "macos": int(re.match(r"\d+", build).group()) + 1,
+    "macos": prefix - 9 if prefix <= 24 else prefix + 1,
     "release": name,
     "kernel": versions.get("kernel.release." + soc, ""),
     "soc": soc,

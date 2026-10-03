@@ -32,7 +32,9 @@ For each build (`.github/workflows/layouts.yml`, on Linux runners):
    whenever the layout changes -- and writes `generated/`.
 
 The layout does not depend on the SoC: within one build, the t8103, t6000,
-t6041, t8122 and t8132 kernels dump identically, so `t8132` stands for all.
+t6041, t8122 and t8132 kernels dump identically, so one kernel stands for
+all -- `t8132` where the kit has it (macOS 15.1 on), else the newest Apple
+silicon kernel it carries.
 
 ## Outputs
 
