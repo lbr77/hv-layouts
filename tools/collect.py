@@ -129,8 +129,10 @@ def write_header(out):
         "#include <stdint.h>",
         "",
         "/* Offsets into the two-page hv guest context (RO page at +0x4000), and",
-        " * sizes, of the fields a VMM touches.  0 size: not in this layout. */",
-        "typedef struct { uint16_t off; uint8_t size; } ohv_hv_field_t;",
+        " * sizes, of the fields a VMM touches.  0 size: not in this layout.",
+        " * Entries below are positional, field name in the comment, so the header",
+        " * is plain C and C++11 alike. */",
+        "typedef struct { uint16_t off; uint16_t size; } ohv_hv_field_t;",
         "",
         "/*",
         " * One entry per layout.  ver is the ARM_HV_STATE_VER its kernels report,",
@@ -150,13 +152,12 @@ def write_header(out):
     for L in out["layouts"]:
         for word, ver in (list(zip(L["words"], L["versions"])) or [("0", "no version constant")]):
             lines.append("    { /* %s */" % ver)
-            lines.append("        .ver = %s," % word)
-            lines.append('        .id = "%s",' % L["id"])
-            lines.append('        .builds = "%s",' % " ".join(L["builds"]))
+            lines.append("        %s, /* ver */" % word)
+            lines.append('        "%s", /* id */' % L["id"])
+            lines.append('        "%s", /* builds */' % " ".join(L["builds"]))
             for n in names:
-                f = L["fields"][n]
-                lines.append("        .%s = { 0x%x, %d }," % (n, f[0], f[1]) if f else
-                             "        .%s = { 0, 0 }," % n)
+                f = L["fields"][n] or (0, 0)
+                lines.append("        { 0x%x, %d }, /* %s */" % (f[0], f[1], n))
             lines.append("    },")
     lines += ["};", ""]
     open(os.path.join(GEN, "ohv_hv_layouts.h"), "w").write("\n".join(lines))
