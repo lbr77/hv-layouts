@@ -1,0 +1,90 @@
+name: hv layouts
+
+on:
+  workflow_dispatch:
+    inputs:
+      builds:
+        description: "KDK builds, space separated (empty: what the mirror has that layouts/ lacks)"
+        required: false
+        default: ""
+      limit:
+        description: "At most this many new builds when none are named"
+        required: false
+        default: "8"
+  schedule:
+    - cron: "23 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hv-layouts
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      builds: ${{ steps.plan.outputs.builds }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILDS: ${{ inputs.builds }}
+          LIMIT: ${{ inputs.limit }}
+        run: python3 tools/plan.py | tee -a "$GITHUB_OUTPUT"
+
+  extract:
+    needs: plan
+    if: needs.plan.outputs.builds != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        build: ${{ fromJSON(needs.plan.outputs.builds) }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOC: t8132
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq 7zip lldb-18 python3-lldb-18
+      - name: Fetch the KDK
+        run: tools/fetch.sh "${{ matrix.build }}" work
+      - name: Take the kernel and its dSYM out of it
+        run: python3 tools/kdk_extract.py --dmg work/kdk.dmg work/kernels "$SOC"
+      - name: Layout and version
+        run: |
+          tools/dump.sh "${{ matrix.build }}" work/kernels out "$SOC"
+          python3 tools/meta.py "${{ matrix.build }}" work out "$SOC"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: layout-${{ matrix.build }}
+          path: out/
+          retention-days: 7
+
+  collect:
+    needs: [plan, extract]
+    if: ${{ !cancelled() && needs.plan.outputs.builds != '[]' }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: layout-*
+          merge-multiple: true
+          path: incoming
+      - run: python3 tools/collect.py incoming
+      - name: Commit what is new
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add layouts generated
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -m "layouts: $(ls incoming | tr '\n' ' ')"
+          git push
