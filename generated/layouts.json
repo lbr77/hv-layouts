@@ -10,6 +10,226 @@
    "soc": "t8132",
    "version": "3.0.0"
   },
+  "25E253": {
+   "build": "25E253",
+   "kdk_sha256": "db79c33a1029c2835322ad23a4954949e1c02f9d9686ec0a9c126e629ab303f3",
+   "kernel": "Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.4.1 build 25E253",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25E5233c": {
+   "build": "25E5233c",
+   "kdk_sha256": "25989a9d2c56ffcdfcdf34b631e007ef23dac599ba44d4c775df561fa3372052",
+   "kernel": "Darwin Kernel Version 25.4.0: Thu Mar  5 22:43:32 PST 2026; root:xnu-12377.101.14~19/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.4 build 25E5233c",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25F5042g": {
+   "build": "25F5042g",
+   "kdk_sha256": "18559cdd2ab801c65d3406d57bf0ee6848237e63d0e3e0042a25c0c15c491043",
+   "kernel": "Darwin Kernel Version 25.5.0: Fri Mar 20 18:54:08 PDT 2026; root:xnu-12377.120.72.0.4~13/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.5.1 build 25F5042g",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25F5058e": {
+   "build": "25F5058e",
+   "kdk_sha256": "9d1698a10d736283f0766fc5656981a5412a5154812ffcd076baddf2300f9bfd",
+   "kernel": "Darwin Kernel Version 25.5.0: Tue Apr 14 21:52:36 PDT 2026; root:xnu-12377.120.99.0.7~25/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.5 Build 25F5058e",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25F5068a": {
+   "build": "25F5068a",
+   "kdk_sha256": "f6c397fe089cdce8ad4b38c2352d9ad7c4534c765688ebce7fe61d42f9cc4fab",
+   "kernel": "Darwin Kernel Version 25.5.0: Thu Apr 23 21:23:23 PDT 2026; root:xnu-12377.121.5~4/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.5.4 build 25F5068a",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25F71": {
+   "build": "25F71",
+   "kdk_sha256": "90ed319cd1ba6e23d1eefcee89fa1b10743f4cf60b85208ae52aa9f45543c7aa",
+   "kernel": "Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:26 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.5 build 25F71",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25F80": {
+   "build": "25F80",
+   "kdk_sha256": "c4e62467fff1a372e85a897869bc3144d5f14bba94d3a7fdde2e5508df8475d7",
+   "kernel": "Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:26 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.5.1 build 25F80",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25F84": {
+   "build": "25F84",
+   "kdk_sha256": "faef4393becf65c88a2791770904909babf1826d23d2ea478bf878a6417851ab",
+   "kernel": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:26:22 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.5.2 build 25F84",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G229": {
+   "build": "25G229",
+   "kdk_sha256": "e9b674c9309f38ce1e4d626d14e8af198be5730df816c00de1b316c7041d2629",
+   "kernel": "Darwin Kernel Version 25.6.0: Tue Aug 18 17:51:33 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.7 build 25G229",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G241": {
+   "build": "25G241",
+   "kdk_sha256": "9045a521c8ae362d4cb2cc54701b03462686e0069518a0b66cfe2028f87dfe9b",
+   "kernel": "Darwin Kernel Version 25.6.0: Tue Aug 18 17:51:33 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.7.1 build 25G241",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G5043d": {
+   "build": "25G5043d",
+   "kdk_sha256": "859187f69eb72ff3c4d2ec28d1605d95dc16d982ca984caeb3c13deb0dd0ec96",
+   "kernel": "Darwin Kernel Version 25.6.0: Tue Jun  9 23:05:09 PDT 2026; root:xnu-12377.160.70.501.6~2/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6 build 25G5043d",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G5052e": {
+   "build": "25G5052e",
+   "kdk_sha256": "9871ce154d92b5a0e3e262229a397313e0af6cd6f0af8737fdc75a086376aab8",
+   "kernel": "Darwin Kernel Version 25.6.0: Thu Jun 18 00:38:51 PDT 2026; root:xnu-12377.160.73.0.5~11/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6 build 25G5052e",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G5057c": {
+   "build": "25G5057c",
+   "kdk_sha256": "bc65b27200164cf1bfe1d37c1704bf58f0da1567ab39c8c9511c0c9e51b86e92",
+   "kernel": "Darwin Kernel Version 25.6.0: Sun Jun 28 20:27:27 PDT 2026; root:xnu-12377.160.87.0.2~12/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6 Build 25G5057c",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G5065a": {
+   "build": "25G5065a",
+   "kdk_sha256": "0a2ded0757b39c042427f7d669a785d983d1ccf49746fbc07841ce1b89f60b45",
+   "kernel": "Darwin Kernel Version 25.6.0: Fri Jul 10 00:22:44 PDT 2026; root:xnu-12377.161.12~4/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6 build 25G5065a",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G70": {
+   "build": "25G70",
+   "kdk_sha256": "edaa0b3d431b43ba7dda2f0e82314b19d5476ba4089a7d8c1de18c49b3ad168b",
+   "kernel": "Darwin Kernel Version 25.6.0: Sat Jul 11 15:26:29 PDT 2026; root:xnu-12377.161.13~4/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6 build 25G70",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G72": {
+   "build": "25G72",
+   "kdk_sha256": "3bc885798d29a51965e9fc7c38090cfb20aa9b19d51b4e6f0175caf9e7b04819",
+   "kernel": "Darwin Kernel Version 25.6.0: Sat Jul 11 15:26:29 PDT 2026; root:xnu-12377.161.13~4/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6 build 25G72",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G76": {
+   "build": "25G76",
+   "kdk_sha256": "b527665e1d8a99207d61f06fac402f584c1afde3b4c4a5fdfe006a57a45f5bcf",
+   "kernel": "Darwin Kernel Version 25.6.0: Sat Jul 11 15:26:29 PDT 2026; root:xnu-12377.161.13~4/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6.1 build 25G76",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G82": {
+   "build": "25G82",
+   "kdk_sha256": "2bdb931e8960ae99c273907c417ffcda353f695750d47c5a67e41e971468aeab",
+   "kernel": "Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6.2 build 25G82",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "25G83": {
+   "build": "25G83",
+   "kdk_sha256": "577cdc8b2c09eaebfb16b0372ab6d6dc128ad4a08eaae09428d84a6c8a1e53c3",
+   "kernel": "Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.6.2 build 25G83",
+   "soc": "t8132",
+   "version": "3.0.0"
+  },
+  "26A428": {
+   "build": "26A428",
+   "kdk_sha256": "7ce685e305d3bcee5e1d8fe9418c55c7e0bbc38075ab1841602444e9098a6efc",
+   "kernel": "Darwin Kernel Version 27.0.0: Tue Aug 11 21:02:57 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.0 build 26A428",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26A434": {
+   "build": "26A434",
+   "kdk_sha256": "9d0122b21427a78b4659da16d4363ec859bb2058a7a666332191e79a5a6ac96e",
+   "kernel": "Darwin Kernel Version 27.0.0: Tue Aug 11 21:02:57 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.0.1 build 26A434",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26A5353q": {
+   "build": "26A5353q",
+   "kdk_sha256": "a4d83e5da1f85a066d1dffd4ff460aea551e1b6a963184c6c0d133c0ab82daef",
+   "kernel": "Darwin Kernel Version 27.0.0: Wed May 27 02:11:37 PDT 2026; root:xnu-13361.0.0.501.1~2/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.0 build 26A5353q",
+   "soc": "t8132",
+   "version": "3.0.2"
+  },
   "26A5368g": {
    "build": "26A5368g",
    "kdk_sha256": "d0e599ef99e86d71bc8b2a5662037ac4345d73b89b35aeae867adf293ddf0d00",
@@ -19,6 +239,76 @@
    "release": "Kernel Debug Kit 26.7 build 26A5368g",
    "soc": "t8132",
    "version": "3.0.3"
+  },
+  "26A5378n": {
+   "build": "26A5378n",
+   "kdk_sha256": "789a3a6e3b8ae9c3a30ab9272638a2a8c6fe1e5a6618a50e706f4587967ac0c2",
+   "kernel": "Darwin Kernel Version 27.0.0: Mon Jun 29 21:23:20 PDT 2026; root:xnu-13432.0.50.501.3~1/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.0 build 26A5378n",
+   "soc": "t8132",
+   "version": "3.0.3"
+  },
+  "26A5388g": {
+   "build": "26A5388g",
+   "kdk_sha256": "5cd983b80ad0335d94c2a54c9a2ebfcf37e8cfb53911aa6c82e9798e788c1f51",
+   "kernel": "Darwin Kernel Version 27.0.0: Tue Jul 14 21:40:50 PDT 2026; root:xnu-13432.0.94.501.4~1/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27 build 26A5388g",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26A5406e": {
+   "build": "26A5406e",
+   "kdk_sha256": "e148ca4a84d34e6e8927fd46d707efea7b1681b71de37adf3b5a2c2487d252b7",
+   "kernel": "Darwin Kernel Version 27.0.0: Wed Aug  5 22:05:23 PDT 2026; root:xnu-13432.1.6.501.1~1/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.0 build 26A5406e",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26A5416b": {
+   "build": "26A5416b",
+   "kdk_sha256": "1304cdc68530b40f08411c090e3d57f7cdc3135bfd54fed9d9f4acd4e6b21673",
+   "kernel": "Darwin Kernel Version 27.0.0: Tue Aug 11 22:02:53 PDT 2026; root:xnu-13432.1.9~3/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27 build 26A5416b",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26A5425a": {
+   "build": "26A5425a",
+   "kdk_sha256": "6ff2e231d39df42ced8144851d8188a8b900861f22e528bd1d11e084520126ff",
+   "kernel": "Darwin Kernel Version 27.0.0: Tue Aug 11 22:02:53 PDT 2026; root:xnu-13432.1.9~3/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.0 build 26A5425a",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26B5086k": {
+   "build": "26B5086k",
+   "kdk_sha256": "57fca9b86e224efe89b3bf912881b0b866e6907525c98d51f2b6a7dd4c2416e0",
+   "kernel": "Darwin Kernel Version 27.2.0: Fri Sep  4 23:26:57 PDT 2026; root:xnu-13432.40.144.0.1~53/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.2 build 26B5086k",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26B5091g": {
+   "build": "26B5091g",
+   "kdk_sha256": "9310dce05c2c5c0746ea042c6dfe4de570dd1fee22a1ba198b72fd398e4e9560",
+   "kernel": "Darwin Kernel Version 27.2.0: Sun Sep 13 19:47:19 PDT 2026; root:xnu-13432.40.162~92/RELEASE_ARM64_T8132",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.2 build 26B5091g",
+   "soc": "t8132",
+   "version": "3.0.4"
   }
  },
  "versions": {
@@ -1377,7 +1667,26 @@
     ]
    },
    "builds": [
-    "25E246"
+    "25E246",
+    "25E253",
+    "25E5233c",
+    "25F5042g",
+    "25F5058e",
+    "25F5068a",
+    "25F71",
+    "25F80",
+    "25F84",
+    "25G229",
+    "25G241",
+    "25G5043d",
+    "25G5052e",
+    "25G5057c",
+    "25G5065a",
+    "25G70",
+    "25G72",
+    "25G76",
+    "25G82",
+    "25G83"
    ],
    "fields": {
     "ro_amx_ptr": [
@@ -1546,6 +1855,1546 @@
     ]
    },
    "word": "0x2068797003000000"
+  },
+  "3.0.2": {
+   "blocks": {
+    "apple_vncr_context_t": [
+     [
+      "__res_000_008",
+      0,
+      8
+     ],
+     [
+      "avncr_el2",
+      8,
+      8
+     ],
+     [
+      "aspsr_el1",
+      16,
+      8
+     ],
+     [
+      "__res_018_100",
+      24,
+      232
+     ],
+     [
+      "apctl_el1",
+      256,
+      8
+     ],
+     [
+      "apsts_el1",
+      264,
+      8
+     ],
+     [
+      "vmkey_lo_el2",
+      272,
+      8
+     ],
+     [
+      "vmkey_hi_el2",
+      280,
+      8
+     ],
+     [
+      "apgakeylo_el1",
+      288,
+      8
+     ],
+     [
+      "apgakeyhi_el1",
+      296,
+      8
+     ],
+     [
+      "apiakeylo_el1",
+      304,
+      8
+     ],
+     [
+      "apiakeyhi_el1",
+      312,
+      8
+     ],
+     [
+      "apibkeylo_el1",
+      320,
+      8
+     ],
+     [
+      "apibkeyhi_el1",
+      328,
+      8
+     ],
+     [
+      "apdakeylo_el1",
+      336,
+      8
+     ],
+     [
+      "apdakeyhi_el1",
+      344,
+      8
+     ],
+     [
+      "apdbkeylo_el1",
+      352,
+      8
+     ],
+     [
+      "apdbkeyhi_el1",
+      360,
+      8
+     ],
+     [
+      "kernkeylo_el1",
+      368,
+      8
+     ],
+     [
+      "kernkeyhi_el1",
+      376,
+      8
+     ],
+     [
+      "__res_180_2d0",
+      384,
+      336
+     ],
+     [
+      "jctl_el1",
+      720,
+      8
+     ],
+     [
+      "jrange_el1",
+      728,
+      8
+     ],
+     [
+      "japiakeylo_el1",
+      736,
+      8
+     ],
+     [
+      "japiakeyhi_el1",
+      744,
+      8
+     ],
+     [
+      "japibkeylo_el1",
+      752,
+      8
+     ],
+     [
+      "japibkeyhi_el1",
+      760,
+      8
+     ],
+     [
+      "amx_config_el1",
+      768,
+      8
+     ],
+     [
+      "__res_308_360",
+      776,
+      88
+     ],
+     [
+      "vmsa_lock_el1",
+      864,
+      8
+     ],
+     [
+      "__res_368_3c0",
+      872,
+      88
+     ],
+     [
+      "pmcr1_el1",
+      960,
+      8
+     ],
+     [
+      "__res_3c8_400",
+      968,
+      56
+     ],
+     [
+      "apl_lrtmr_el2",
+      1024,
+      8
+     ],
+     [
+      "apl_intenable_el2",
+      1032,
+      8
+     ],
+     [
+      "__res_410_1000",
+      1040,
+      3056
+     ]
+    ],
+    "arm_guest_banked_sysregs_t": [
+     [
+      "ttbr0_el1",
+      0,
+      8
+     ],
+     [
+      "ttbr1_el1",
+      8,
+      8
+     ],
+     [
+      "tcr_el1",
+      16,
+      8
+     ],
+     [
+      "elr_el1",
+      24,
+      8
+     ],
+     [
+      "far_el1",
+      32,
+      8
+     ],
+     [
+      "esr_el1",
+      40,
+      8
+     ],
+     [
+      "mair_el1",
+      48,
+      8
+     ],
+     [
+      "amair_el1",
+      56,
+      8
+     ],
+     [
+      "vbar_el1",
+      64,
+      8
+     ],
+     [
+      "cntv_cval_el0",
+      72,
+      8
+     ],
+     [
+      "cntp_cval_el0",
+      80,
+      8
+     ],
+     [
+      "actlr_el1",
+      88,
+      8
+     ],
+     [
+      "sctlr_el1",
+      96,
+      8
+     ],
+     [
+      "cpacr_el1",
+      104,
+      8
+     ],
+     [
+      "spsr_el1",
+      112,
+      8
+     ],
+     [
+      "afsr0_el1",
+      120,
+      8
+     ],
+     [
+      "afsr1_el1",
+      128,
+      8
+     ],
+     [
+      "contextidr_el1",
+      136,
+      8
+     ],
+     [
+      "cntv_ctl_el0",
+      144,
+      8
+     ],
+     [
+      "cntp_ctl_el0",
+      152,
+      8
+     ],
+     [
+      "cntkctl_el1",
+      160,
+      8
+     ],
+     [
+      "ich_vmcr_el2",
+      168,
+      8
+     ],
+     [
+      "scxtnum_el1",
+      176,
+      8
+     ],
+     [
+      "smcr_el1",
+      184,
+      8
+     ],
+     [
+      "sctlr2_el1",
+      192,
+      8
+     ],
+     [
+      "tcr2_el1",
+      200,
+      8
+     ]
+    ],
+    "arm_guest_controls_t": [
+     [
+      "hcr_el2",
+      0,
+      8
+     ],
+     [
+      "hacr_el2",
+      8,
+      8
+     ],
+     [
+      "cptr_el2",
+      16,
+      8
+     ],
+     [
+      "mdcr_el2",
+      24,
+      8
+     ],
+     [
+      "vmpidr_el2",
+      32,
+      8
+     ],
+     [
+      "vpidr_el2",
+      40,
+      8
+     ],
+     [
+      "virtual_timer_offset",
+      48,
+      8
+     ],
+     [
+      "hfgrtr_el2",
+      56,
+      8
+     ],
+     [
+      "hfgwtr_el2",
+      64,
+      8
+     ],
+     [
+      "hfgitr_el2",
+      72,
+      8
+     ],
+     [
+      "hdfgrtr_el2",
+      80,
+      8
+     ],
+     [
+      "hdfgwtr_el2",
+      88,
+      8
+     ],
+     [
+      "cnthctl_el2",
+      96,
+      8
+     ],
+     [
+      "timer",
+      104,
+      8
+     ],
+     [
+      "vmkeyhi_el2",
+      112,
+      8
+     ],
+     [
+      "vmkeylo_el2",
+      120,
+      8
+     ],
+     [
+      "apsts_el1",
+      128,
+      8
+     ],
+     [
+      "ich_hcr_el2",
+      136,
+      8
+     ],
+     [
+      "ich_lr_el2",
+      144,
+      64
+     ],
+     [
+      "hcrx_el2",
+      208,
+      8
+     ]
+    ],
+    "arm_guest_dbgregs_t": [
+     [
+      "bp",
+      0,
+      256
+     ],
+     [
+      "wp",
+      256,
+      256
+     ],
+     [
+      "mdccint_el1",
+      512,
+      8
+     ],
+     [
+      "osdtrrx_el1",
+      520,
+      8
+     ],
+     [
+      "osdtrtx_el1",
+      528,
+      8
+     ],
+     [
+      "dbgclaim_el1",
+      536,
+      8
+     ]
+    ],
+    "arm_guest_extregs_t": [
+     [
+      "amx_state_t_el1",
+      0,
+      8
+     ],
+     [
+      "amx_config_el1",
+      8,
+      8
+     ],
+     [
+      "aspsr_el1",
+      16,
+      8
+     ],
+     [
+      "ctrr_ctl_el1",
+      24,
+      8
+     ],
+     [
+      "ctrr_lock_el1",
+      32,
+      8
+     ],
+     [
+      "ctrr_a_lwr_el1",
+      40,
+      8
+     ],
+     [
+      "ctrr_a_upr_el1",
+      48,
+      8
+     ],
+     [
+      "ctrr_b_lwr_el1",
+      56,
+      8
+     ],
+     [
+      "ctrr_b_upr_el1",
+      64,
+      8
+     ],
+     [
+      "ctrr_c_lwr_el1",
+      72,
+      8
+     ],
+     [
+      "ctrr_c_upr_el1",
+      80,
+      8
+     ],
+     [
+      "ctrr_c_ctl_el1",
+      88,
+      8
+     ],
+     [
+      "ctrr_d_lwr_el1",
+      96,
+      8
+     ],
+     [
+      "ctrr_d_upr_el1",
+      104,
+      8
+     ],
+     [
+      "ctrr_d_ctl_el1",
+      112,
+      8
+     ],
+     [
+      "ctxr_a_lwr_el1",
+      120,
+      8
+     ],
+     [
+      "ctxr_a_upr_el1",
+      128,
+      8
+     ],
+     [
+      "ctxr_a_ctl_el1",
+      136,
+      8
+     ],
+     [
+      "ctxr_b_lwr_el1",
+      144,
+      8
+     ],
+     [
+      "ctxr_b_upr_el1",
+      152,
+      8
+     ],
+     [
+      "ctxr_b_ctl_el1",
+      160,
+      8
+     ],
+     [
+      "ctxr_c_lwr_el1",
+      168,
+      8
+     ],
+     [
+      "ctxr_c_upr_el1",
+      176,
+      8
+     ],
+     [
+      "ctxr_c_ctl_el1",
+      184,
+      8
+     ],
+     [
+      "ctxr_d_lwr_el1",
+      192,
+      8
+     ],
+     [
+      "ctxr_d_upr_el1",
+      200,
+      8
+     ],
+     [
+      "ctxr_d_ctl_el1",
+      208,
+      8
+     ],
+     [
+      "vmsa_lock_el1",
+      216,
+      8
+     ],
+     [
+      "pmcr1_el1",
+      224,
+      8
+     ],
+     [
+      "apctl_el1",
+      232,
+      8
+     ],
+     [
+      "apgakeyhi_el1",
+      240,
+      8
+     ],
+     [
+      "apgakeylo_el1",
+      248,
+      8
+     ],
+     [
+      "apiakeyhi_el1",
+      256,
+      8
+     ],
+     [
+      "apiakeylo_el1",
+      264,
+      8
+     ],
+     [
+      "apibkeyhi_el1",
+      272,
+      8
+     ],
+     [
+      "apibkeylo_el1",
+      280,
+      8
+     ],
+     [
+      "apdakeyhi_el1",
+      288,
+      8
+     ],
+     [
+      "apdakeylo_el1",
+      296,
+      8
+     ],
+     [
+      "apdbkeyhi_el1",
+      304,
+      8
+     ],
+     [
+      "apdbkeylo_el1",
+      312,
+      8
+     ],
+     [
+      "kernkeyhi_el1",
+      320,
+      8
+     ],
+     [
+      "kernkeylo_el1",
+      328,
+      8
+     ],
+     [
+      "gxf_config_el1",
+      336,
+      8
+     ],
+     [
+      "gxf_entry_el1",
+      344,
+      8
+     ],
+     [
+      "gxf_pabentry_el1",
+      352,
+      8
+     ],
+     [
+      "sp_gl1",
+      360,
+      8
+     ],
+     [
+      "tpidr_gl1",
+      368,
+      8
+     ],
+     [
+      "aspsr_gl1",
+      376,
+      8
+     ],
+     [
+      "vbar_gl1",
+      384,
+      8
+     ],
+     [
+      "far_gl1",
+      392,
+      8
+     ],
+     [
+      "esr_gl1",
+      400,
+      8
+     ],
+     [
+      "elr_gl1",
+      408,
+      8
+     ],
+     [
+      "spsr_gl1",
+      416,
+      8
+     ],
+     [
+      "pmcr1_gl1",
+      424,
+      8
+     ],
+     [
+      "afsr1_gl1",
+      432,
+      8
+     ],
+     [
+      "sprr_config_el1",
+      440,
+      8
+     ],
+     [
+      "sprr_amrange_el1",
+      448,
+      8
+     ],
+     [
+      "sprr_pperm_el1",
+      456,
+      8
+     ],
+     [
+      "sprr_uperm_el0",
+      464,
+      8
+     ],
+     [
+      "sprr_pmprr_el1",
+      472,
+      8
+     ],
+     [
+      "sprr_umprr_el1",
+      480,
+      8
+     ],
+     [
+      "sprr_pperm_sh1_el1",
+      488,
+      8
+     ],
+     [
+      "sprr_pperm_sh2_el1",
+      496,
+      8
+     ],
+     [
+      "sprr_pperm_sh3_el1",
+      504,
+      8
+     ],
+     [
+      "sprr_pperm_sh4_el1",
+      512,
+      8
+     ],
+     [
+      "sprr_pperm_sh5_el1",
+      520,
+      8
+     ],
+     [
+      "sprr_pperm_sh6_el1",
+      528,
+      8
+     ],
+     [
+      "sprr_pperm_sh7_el1",
+      536,
+      8
+     ],
+     [
+      "sprr_uperm_sh1_el1",
+      544,
+      8
+     ],
+     [
+      "sprr_uperm_sh2_el1",
+      552,
+      8
+     ],
+     [
+      "sprr_uperm_sh3_el1",
+      560,
+      8
+     ],
+     [
+      "sprr_uperm_sh4_el1",
+      568,
+      8
+     ],
+     [
+      "sprr_uperm_sh5_el1",
+      576,
+      8
+     ],
+     [
+      "sprr_uperm_sh6_el1",
+      584,
+      8
+     ],
+     [
+      "sprr_uperm_sh7_el1",
+      592,
+      8
+     ],
+     [
+      "acfg_el1",
+      600,
+      8
+     ],
+     [
+      "jrange_el1",
+      608,
+      8
+     ],
+     [
+      "jctl_el1",
+      616,
+      8
+     ],
+     [
+      "japiakeyhi_el1",
+      624,
+      8
+     ],
+     [
+      "japiakeylo_el1",
+      632,
+      8
+     ],
+     [
+      "japibkeyhi_el1",
+      640,
+      8
+     ],
+     [
+      "japibkeylo_el1",
+      648,
+      8
+     ],
+     [
+      "agtcntrdir_el1",
+      656,
+      8
+     ]
+    ],
+    "arm_guest_shared_sysregs_t": [
+     [
+      "mdscr_el1",
+      0,
+      8
+     ],
+     [
+      "tpidr_el1",
+      8,
+      8
+     ],
+     [
+      "tpidr_el0",
+      16,
+      8
+     ],
+     [
+      "tpidrro_el0",
+      24,
+      8
+     ],
+     [
+      "sp_el0",
+      32,
+      8
+     ],
+     [
+      "sp_el1",
+      40,
+      8
+     ],
+     [
+      "par_el1",
+      48,
+      8
+     ],
+     [
+      "csselr_el1",
+      56,
+      8
+     ],
+     [
+      "apstate",
+      64,
+      8
+     ],
+     [
+      "afpcr_el0",
+      72,
+      8
+     ],
+     [
+      "scxtnum_el0",
+      80,
+      8
+     ],
+     [
+      "tpidr2_el0",
+      88,
+      8
+     ],
+     [
+      "smpri_el1",
+      96,
+      8
+     ]
+    ],
+    "arm_vgic_sysregs_t": [
+     [
+      "ich_ap0r0_el2",
+      0,
+      8
+     ],
+     [
+      "ich_ap1r0_el2",
+      8,
+      8
+     ],
+     [
+      "apl_lrtmr_el2",
+      16,
+      8
+     ]
+    ],
+    "arm_vncr_context_t": [
+     [
+      "__res_00_20",
+      0,
+      32
+     ],
+     [
+      "vttbr_el2",
+      32,
+      8
+     ],
+     [
+      "__res_28",
+      40,
+      8
+     ],
+     [
+      "vsttbr_el2",
+      48,
+      8
+     ],
+     [
+      "__res_38",
+      56,
+      8
+     ],
+     [
+      "vtcr_el2",
+      64,
+      8
+     ],
+     [
+      "vstcr_el2",
+      72,
+      8
+     ],
+     [
+      "vmpidr_el2",
+      80,
+      8
+     ],
+     [
+      "__res_58",
+      88,
+      8
+     ],
+     [
+      "cntvoff_el2",
+      96,
+      8
+     ],
+     [
+      "__res_68_78",
+      104,
+      16
+     ],
+     [
+      "hcr_el2",
+      120,
+      8
+     ],
+     [
+      "hstr_el2",
+      128,
+      8
+     ],
+     [
+      "vpidr_el2",
+      136,
+      8
+     ],
+     [
+      "tpidr_el2",
+      144,
+      8
+     ],
+     [
+      "__res_98_b0",
+      152,
+      24
+     ],
+     [
+      "vncr_el2",
+      176,
+      8
+     ],
+     [
+      "__res_b8_100",
+      184,
+      72
+     ],
+     [
+      "cpacr_el1",
+      256,
+      8
+     ],
+     [
+      "contextidr_el1",
+      264,
+      8
+     ],
+     [
+      "sctlr_el1",
+      272,
+      8
+     ],
+     [
+      "actlr_el1",
+      280,
+      8
+     ],
+     [
+      "tcr_el1",
+      288,
+      8
+     ],
+     [
+      "afsr0_el1",
+      296,
+      8
+     ],
+     [
+      "afsr1_el1",
+      304,
+      8
+     ],
+     [
+      "esr_el1",
+      312,
+      8
+     ],
+     [
+      "mair_el1",
+      320,
+      8
+     ],
+     [
+      "amair_el1",
+      328,
+      8
+     ],
+     [
+      "__res_158_150",
+      336,
+      8
+     ],
+     [
+      "mdscr_el1",
+      344,
+      8
+     ],
+     [
+      "spsr_el1",
+      352,
+      8
+     ],
+     [
+      "cntv_cval_el0",
+      360,
+      8
+     ],
+     [
+      "cntv_ctl_el0",
+      368,
+      8
+     ],
+     [
+      "cntp_cval_el0",
+      376,
+      8
+     ],
+     [
+      "cntp_ctl_el0",
+      384,
+      8
+     ],
+     [
+      "scxtnum_el1",
+      392,
+      8
+     ],
+     [
+      "tfsr_el1",
+      400,
+      8
+     ],
+     [
+      "__res_198_1a8",
+      408,
+      16
+     ],
+     [
+      "cntpoff_el2",
+      424,
+      8
+     ],
+     [
+      "__res_1b0_1b8",
+      432,
+      8
+     ],
+     [
+      "hfgrtr_el2",
+      440,
+      8
+     ],
+     [
+      "hfgwtr_el2",
+      448,
+      8
+     ],
+     [
+      "hfgitr_el2",
+      456,
+      8
+     ],
+     [
+      "hdfgrtr_el2",
+      464,
+      8
+     ],
+     [
+      "hdfgwtr_el2",
+      472,
+      8
+     ],
+     [
+      "zcr_el1",
+      480,
+      8
+     ],
+     [
+      "__res_1e8_1f0",
+      488,
+      8
+     ],
+     [
+      "smcr_el1",
+      496,
+      8
+     ],
+     [
+      "smprimap_el2",
+      504,
+      8
+     ],
+     [
+      "ttbr0_el1",
+      512,
+      8
+     ],
+     [
+      "__res_208_210",
+      520,
+      8
+     ],
+     [
+      "ttbr1_el1",
+      528,
+      8
+     ],
+     [
+      "__res_218_220",
+      536,
+      8
+     ],
+     [
+      "far_el1",
+      544,
+      8
+     ],
+     [
+      "__res_228_230",
+      552,
+      8
+     ],
+     [
+      "elr_el1",
+      560,
+      8
+     ],
+     [
+      "__res_238_240",
+      568,
+      8
+     ],
+     [
+      "sp_el1",
+      576,
+      8
+     ],
+     [
+      "__res_248_250",
+      584,
+      8
+     ],
+     [
+      "vbar_el1",
+      592,
+      8
+     ],
+     [
+      "__res_400_258",
+      600,
+      424
+     ],
+     [
+      "ich_lr_el2",
+      1024,
+      128
+     ],
+     [
+      "ich_ap0r_el2",
+      1152,
+      32
+     ],
+     [
+      "ich_ap1r_el2",
+      1184,
+      32
+     ],
+     [
+      "ich_hcr_el2",
+      1216,
+      8
+     ],
+     [
+      "ich_vmcr_el2",
+      1224,
+      8
+     ],
+     [
+      "__res_4d0_500",
+      1232,
+      48
+     ],
+     [
+      "vdisr_el2",
+      1280,
+      8
+     ],
+     [
+      "vsesr_el2",
+      1288,
+      8
+     ],
+     [
+      "__res_510_800",
+      1296,
+      752
+     ],
+     [
+      "pmblimitr_el1",
+      2048,
+      8
+     ],
+     [
+      "__res_808_810",
+      2056,
+      8
+     ],
+     [
+      "pmbptr_el1",
+      2064,
+      8
+     ],
+     [
+      "__res_818_820",
+      2072,
+      8
+     ],
+     [
+      "pmbsr_el1",
+      2080,
+      8
+     ],
+     [
+      "pmscr_el1",
+      2088,
+      8
+     ],
+     [
+      "pmsevfr_el1",
+      2096,
+      8
+     ],
+     [
+      "pmsicr_el1",
+      2104,
+      8
+     ],
+     [
+      "pmsirr_el1",
+      2112,
+      8
+     ],
+     [
+      "pmslatfr_el1",
+      2120,
+      8
+     ],
+     [
+      "__res_850_880",
+      2128,
+      48
+     ],
+     [
+      "trfcr_el1",
+      2176,
+      8
+     ],
+     [
+      "__res_888_1000",
+      2184,
+      1912
+     ]
+    ]
+   },
+   "builds": [
+    "26A5353q"
+   ],
+   "fields": {
+    "ro_amx_ptr": [
+     16720,
+     8
+    ],
+    "ro_controls": [
+     16432,
+     216
+    ],
+    "ro_exit_esr": [
+     16400,
+     8
+    ],
+    "ro_exit_far": [
+     16416,
+     8
+    ],
+    "ro_exit_hpfar": [
+     16424,
+     8
+    ],
+    "ro_exit_instr": [
+     16408,
+     8
+    ],
+    "ro_exit_reason": [
+     16392,
+     4
+    ],
+    "ro_ich_elrsr": [
+     16688,
+     8
+    ],
+    "ro_ich_misr": [
+     16680,
+     8
+    ],
+    "ro_ich_vtr": [
+     16672,
+     8
+    ],
+    "ro_sme_ptr": [
+     16712,
+     8
+    ],
+    "ro_state_dirty": [
+     16656,
+     8
+    ],
+    "ro_state_used": [
+     16664,
+     8
+    ],
+    "ro_state_valid": [
+     16648,
+     8
+    ],
+    "ro_svcr": [
+     16696,
+     8
+    ],
+    "ro_svl_b": [
+     16704,
+     2
+    ],
+    "ro_ver": [
+     16384,
+     8
+    ],
+    "rw_avncr": [
+     8192,
+     4096
+    ],
+    "rw_banked_sysregs": [
+     952,
+     208
+    ],
+    "rw_controls": [
+     2336,
+     216
+    ],
+    "rw_cpsr": [
+     272,
+     4
+    ],
+    "rw_dbgregs": [
+     1160,
+     544
+    ],
+    "rw_extregs": [
+     2576,
+     664
+    ],
+    "rw_fp": [
+     240,
+     8
+    ],
+    "rw_fpcr": [
+     836,
+     4
+    ],
+    "rw_fpsr": [
+     832,
+     4
+    ],
+    "rw_frozen": [
+     2552,
+     8
+    ],
+    "rw_guest_ticks": [
+     2568,
+     8
+    ],
+    "rw_ich_ap0r0": [
+     1704,
+     8
+    ],
+    "rw_ich_ap1r0": [
+     1712,
+     8
+    ],
+    "rw_lr": [
+     248,
+     8
+    ],
+    "rw_neon_q0": [
+     320,
+     512
+    ],
+    "rw_pc": [
+     264,
+     8
+    ],
+    "rw_shared_sysregs": [
+     848,
+     104
+    ],
+    "rw_sp": [
+     256,
+     8
+    ],
+    "rw_state_dirty": [
+     2560,
+     8
+    ],
+    "rw_timer": [
+     2440,
+     8
+    ],
+    "rw_vgic_sysregs": [
+     1704,
+     24
+    ],
+    "rw_vncr": [
+     4096,
+     4096
+    ],
+    "rw_vtimer_offset": [
+     2384,
+     8
+    ],
+    "rw_x0": [
+     8,
+     232
+    ]
+   },
+   "word": "0x2068797003000002"
   },
   "3.0.3": {
    "blocks": {
@@ -2917,7 +4766,8 @@
     ]
    },
    "builds": [
-    "26A5368g"
+    "26A5368g",
+    "26A5378n"
    ],
    "fields": {
     "ro_amx_ptr": [
@@ -3086,6 +4936,1558 @@
     ]
    },
    "word": "0x2068797003000003"
+  },
+  "3.0.4": {
+   "blocks": {
+    "apple_vncr_context_t": [
+     [
+      "__res_000_008",
+      0,
+      8
+     ],
+     [
+      "avncr_el2",
+      8,
+      8
+     ],
+     [
+      "aspsr_el1",
+      16,
+      8
+     ],
+     [
+      "__res_018_100",
+      24,
+      232
+     ],
+     [
+      "apctl_el1",
+      256,
+      8
+     ],
+     [
+      "apsts_el1",
+      264,
+      8
+     ],
+     [
+      "vmkey_lo_el2",
+      272,
+      8
+     ],
+     [
+      "vmkey_hi_el2",
+      280,
+      8
+     ],
+     [
+      "apgakeylo_el1",
+      288,
+      8
+     ],
+     [
+      "apgakeyhi_el1",
+      296,
+      8
+     ],
+     [
+      "apiakeylo_el1",
+      304,
+      8
+     ],
+     [
+      "apiakeyhi_el1",
+      312,
+      8
+     ],
+     [
+      "apibkeylo_el1",
+      320,
+      8
+     ],
+     [
+      "apibkeyhi_el1",
+      328,
+      8
+     ],
+     [
+      "apdakeylo_el1",
+      336,
+      8
+     ],
+     [
+      "apdakeyhi_el1",
+      344,
+      8
+     ],
+     [
+      "apdbkeylo_el1",
+      352,
+      8
+     ],
+     [
+      "apdbkeyhi_el1",
+      360,
+      8
+     ],
+     [
+      "kernkeylo_el1",
+      368,
+      8
+     ],
+     [
+      "kernkeyhi_el1",
+      376,
+      8
+     ],
+     [
+      "__res_180_2d0",
+      384,
+      336
+     ],
+     [
+      "jctl_el1",
+      720,
+      8
+     ],
+     [
+      "jrange_el1",
+      728,
+      8
+     ],
+     [
+      "japiakeylo_el1",
+      736,
+      8
+     ],
+     [
+      "japiakeyhi_el1",
+      744,
+      8
+     ],
+     [
+      "japibkeylo_el1",
+      752,
+      8
+     ],
+     [
+      "japibkeyhi_el1",
+      760,
+      8
+     ],
+     [
+      "amx_config_el1",
+      768,
+      8
+     ],
+     [
+      "__res_308_360",
+      776,
+      88
+     ],
+     [
+      "vmsa_lock_el1",
+      864,
+      8
+     ],
+     [
+      "__res_368_3c0",
+      872,
+      88
+     ],
+     [
+      "pmcr1_el1",
+      960,
+      8
+     ],
+     [
+      "__res_3c8_400",
+      968,
+      56
+     ],
+     [
+      "apl_lrtmr_el2",
+      1024,
+      8
+     ],
+     [
+      "apl_intenable_el2",
+      1032,
+      8
+     ],
+     [
+      "__res_410_1000",
+      1040,
+      3056
+     ]
+    ],
+    "arm_guest_banked_sysregs_t": [
+     [
+      "ttbr0_el1",
+      0,
+      8
+     ],
+     [
+      "ttbr1_el1",
+      8,
+      8
+     ],
+     [
+      "tcr_el1",
+      16,
+      8
+     ],
+     [
+      "elr_el1",
+      24,
+      8
+     ],
+     [
+      "far_el1",
+      32,
+      8
+     ],
+     [
+      "esr_el1",
+      40,
+      8
+     ],
+     [
+      "mair_el1",
+      48,
+      8
+     ],
+     [
+      "amair_el1",
+      56,
+      8
+     ],
+     [
+      "vbar_el1",
+      64,
+      8
+     ],
+     [
+      "cntv_cval_el0",
+      72,
+      8
+     ],
+     [
+      "cntp_cval_el0",
+      80,
+      8
+     ],
+     [
+      "actlr_el1",
+      88,
+      8
+     ],
+     [
+      "sctlr_el1",
+      96,
+      8
+     ],
+     [
+      "cpacr_el1",
+      104,
+      8
+     ],
+     [
+      "spsr_el1",
+      112,
+      8
+     ],
+     [
+      "afsr0_el1",
+      120,
+      8
+     ],
+     [
+      "afsr1_el1",
+      128,
+      8
+     ],
+     [
+      "contextidr_el1",
+      136,
+      8
+     ],
+     [
+      "cntv_ctl_el0",
+      144,
+      8
+     ],
+     [
+      "cntp_ctl_el0",
+      152,
+      8
+     ],
+     [
+      "cntkctl_el1",
+      160,
+      8
+     ],
+     [
+      "ich_vmcr_el2",
+      168,
+      8
+     ],
+     [
+      "scxtnum_el1",
+      176,
+      8
+     ],
+     [
+      "smcr_el1",
+      184,
+      8
+     ],
+     [
+      "sctlr2_el1",
+      192,
+      8
+     ],
+     [
+      "tcr2_el1",
+      200,
+      8
+     ]
+    ],
+    "arm_guest_controls_t": [
+     [
+      "hcr_el2",
+      0,
+      8
+     ],
+     [
+      "hacr_el2",
+      8,
+      8
+     ],
+     [
+      "cptr_el2",
+      16,
+      8
+     ],
+     [
+      "mdcr_el2",
+      24,
+      8
+     ],
+     [
+      "vmpidr_el2",
+      32,
+      8
+     ],
+     [
+      "vpidr_el2",
+      40,
+      8
+     ],
+     [
+      "virtual_timer_offset",
+      48,
+      8
+     ],
+     [
+      "hfgrtr_el2",
+      56,
+      8
+     ],
+     [
+      "hfgwtr_el2",
+      64,
+      8
+     ],
+     [
+      "hfgitr_el2",
+      72,
+      8
+     ],
+     [
+      "hdfgrtr_el2",
+      80,
+      8
+     ],
+     [
+      "hdfgwtr_el2",
+      88,
+      8
+     ],
+     [
+      "cnthctl_el2",
+      96,
+      8
+     ],
+     [
+      "timer",
+      104,
+      8
+     ],
+     [
+      "vmkeyhi_el2",
+      112,
+      8
+     ],
+     [
+      "vmkeylo_el2",
+      120,
+      8
+     ],
+     [
+      "apsts_el1",
+      128,
+      8
+     ],
+     [
+      "ich_hcr_el2",
+      136,
+      8
+     ],
+     [
+      "ich_lr_el2",
+      144,
+      64
+     ],
+     [
+      "hcrx_el2",
+      208,
+      8
+     ],
+     [
+      "physical_timer_offset",
+      216,
+      8
+     ]
+    ],
+    "arm_guest_dbgregs_t": [
+     [
+      "bp",
+      0,
+      256
+     ],
+     [
+      "wp",
+      256,
+      256
+     ],
+     [
+      "mdccint_el1",
+      512,
+      8
+     ],
+     [
+      "osdtrrx_el1",
+      520,
+      8
+     ],
+     [
+      "osdtrtx_el1",
+      528,
+      8
+     ],
+     [
+      "dbgclaim_el1",
+      536,
+      8
+     ]
+    ],
+    "arm_guest_extregs_t": [
+     [
+      "amx_state_t_el1",
+      0,
+      8
+     ],
+     [
+      "amx_config_el1",
+      8,
+      8
+     ],
+     [
+      "aspsr_el1",
+      16,
+      8
+     ],
+     [
+      "ctrr_ctl_el1",
+      24,
+      8
+     ],
+     [
+      "ctrr_lock_el1",
+      32,
+      8
+     ],
+     [
+      "ctrr_a_lwr_el1",
+      40,
+      8
+     ],
+     [
+      "ctrr_a_upr_el1",
+      48,
+      8
+     ],
+     [
+      "ctrr_b_lwr_el1",
+      56,
+      8
+     ],
+     [
+      "ctrr_b_upr_el1",
+      64,
+      8
+     ],
+     [
+      "ctrr_c_lwr_el1",
+      72,
+      8
+     ],
+     [
+      "ctrr_c_upr_el1",
+      80,
+      8
+     ],
+     [
+      "ctrr_c_ctl_el1",
+      88,
+      8
+     ],
+     [
+      "ctrr_d_lwr_el1",
+      96,
+      8
+     ],
+     [
+      "ctrr_d_upr_el1",
+      104,
+      8
+     ],
+     [
+      "ctrr_d_ctl_el1",
+      112,
+      8
+     ],
+     [
+      "ctxr_a_lwr_el1",
+      120,
+      8
+     ],
+     [
+      "ctxr_a_upr_el1",
+      128,
+      8
+     ],
+     [
+      "ctxr_a_ctl_el1",
+      136,
+      8
+     ],
+     [
+      "ctxr_b_lwr_el1",
+      144,
+      8
+     ],
+     [
+      "ctxr_b_upr_el1",
+      152,
+      8
+     ],
+     [
+      "ctxr_b_ctl_el1",
+      160,
+      8
+     ],
+     [
+      "ctxr_c_lwr_el1",
+      168,
+      8
+     ],
+     [
+      "ctxr_c_upr_el1",
+      176,
+      8
+     ],
+     [
+      "ctxr_c_ctl_el1",
+      184,
+      8
+     ],
+     [
+      "ctxr_d_lwr_el1",
+      192,
+      8
+     ],
+     [
+      "ctxr_d_upr_el1",
+      200,
+      8
+     ],
+     [
+      "ctxr_d_ctl_el1",
+      208,
+      8
+     ],
+     [
+      "vmsa_lock_el1",
+      216,
+      8
+     ],
+     [
+      "pmcr1_el1",
+      224,
+      8
+     ],
+     [
+      "apctl_el1",
+      232,
+      8
+     ],
+     [
+      "apgakeyhi_el1",
+      240,
+      8
+     ],
+     [
+      "apgakeylo_el1",
+      248,
+      8
+     ],
+     [
+      "apiakeyhi_el1",
+      256,
+      8
+     ],
+     [
+      "apiakeylo_el1",
+      264,
+      8
+     ],
+     [
+      "apibkeyhi_el1",
+      272,
+      8
+     ],
+     [
+      "apibkeylo_el1",
+      280,
+      8
+     ],
+     [
+      "apdakeyhi_el1",
+      288,
+      8
+     ],
+     [
+      "apdakeylo_el1",
+      296,
+      8
+     ],
+     [
+      "apdbkeyhi_el1",
+      304,
+      8
+     ],
+     [
+      "apdbkeylo_el1",
+      312,
+      8
+     ],
+     [
+      "kernkeyhi_el1",
+      320,
+      8
+     ],
+     [
+      "kernkeylo_el1",
+      328,
+      8
+     ],
+     [
+      "gxf_config_el1",
+      336,
+      8
+     ],
+     [
+      "gxf_entry_el1",
+      344,
+      8
+     ],
+     [
+      "gxf_pabentry_el1",
+      352,
+      8
+     ],
+     [
+      "sp_gl1",
+      360,
+      8
+     ],
+     [
+      "tpidr_gl1",
+      368,
+      8
+     ],
+     [
+      "aspsr_gl1",
+      376,
+      8
+     ],
+     [
+      "vbar_gl1",
+      384,
+      8
+     ],
+     [
+      "far_gl1",
+      392,
+      8
+     ],
+     [
+      "esr_gl1",
+      400,
+      8
+     ],
+     [
+      "elr_gl1",
+      408,
+      8
+     ],
+     [
+      "spsr_gl1",
+      416,
+      8
+     ],
+     [
+      "pmcr1_gl1",
+      424,
+      8
+     ],
+     [
+      "afsr1_gl1",
+      432,
+      8
+     ],
+     [
+      "sprr_config_el1",
+      440,
+      8
+     ],
+     [
+      "sprr_amrange_el1",
+      448,
+      8
+     ],
+     [
+      "sprr_pperm_el1",
+      456,
+      8
+     ],
+     [
+      "sprr_uperm_el0",
+      464,
+      8
+     ],
+     [
+      "sprr_pmprr_el1",
+      472,
+      8
+     ],
+     [
+      "sprr_umprr_el1",
+      480,
+      8
+     ],
+     [
+      "sprr_pperm_sh1_el1",
+      488,
+      8
+     ],
+     [
+      "sprr_pperm_sh2_el1",
+      496,
+      8
+     ],
+     [
+      "sprr_pperm_sh3_el1",
+      504,
+      8
+     ],
+     [
+      "sprr_pperm_sh4_el1",
+      512,
+      8
+     ],
+     [
+      "sprr_pperm_sh5_el1",
+      520,
+      8
+     ],
+     [
+      "sprr_pperm_sh6_el1",
+      528,
+      8
+     ],
+     [
+      "sprr_pperm_sh7_el1",
+      536,
+      8
+     ],
+     [
+      "sprr_uperm_sh1_el1",
+      544,
+      8
+     ],
+     [
+      "sprr_uperm_sh2_el1",
+      552,
+      8
+     ],
+     [
+      "sprr_uperm_sh3_el1",
+      560,
+      8
+     ],
+     [
+      "sprr_uperm_sh4_el1",
+      568,
+      8
+     ],
+     [
+      "sprr_uperm_sh5_el1",
+      576,
+      8
+     ],
+     [
+      "sprr_uperm_sh6_el1",
+      584,
+      8
+     ],
+     [
+      "sprr_uperm_sh7_el1",
+      592,
+      8
+     ],
+     [
+      "acfg_el1",
+      600,
+      8
+     ],
+     [
+      "jrange_el1",
+      608,
+      8
+     ],
+     [
+      "jctl_el1",
+      616,
+      8
+     ],
+     [
+      "japiakeyhi_el1",
+      624,
+      8
+     ],
+     [
+      "japiakeylo_el1",
+      632,
+      8
+     ],
+     [
+      "japibkeyhi_el1",
+      640,
+      8
+     ],
+     [
+      "japibkeylo_el1",
+      648,
+      8
+     ],
+     [
+      "agtcntrdir_el1",
+      656,
+      8
+     ]
+    ],
+    "arm_guest_shared_sysregs_t": [
+     [
+      "mdscr_el1",
+      0,
+      8
+     ],
+     [
+      "tpidr_el1",
+      8,
+      8
+     ],
+     [
+      "tpidr_el0",
+      16,
+      8
+     ],
+     [
+      "tpidrro_el0",
+      24,
+      8
+     ],
+     [
+      "sp_el0",
+      32,
+      8
+     ],
+     [
+      "sp_el1",
+      40,
+      8
+     ],
+     [
+      "par_el1",
+      48,
+      8
+     ],
+     [
+      "csselr_el1",
+      56,
+      8
+     ],
+     [
+      "apstate",
+      64,
+      8
+     ],
+     [
+      "afpcr_el0",
+      72,
+      8
+     ],
+     [
+      "scxtnum_el0",
+      80,
+      8
+     ],
+     [
+      "tpidr2_el0",
+      88,
+      8
+     ],
+     [
+      "smpri_el1",
+      96,
+      8
+     ]
+    ],
+    "arm_vgic_sysregs_t": [
+     [
+      "ich_ap0r0_el2",
+      0,
+      8
+     ],
+     [
+      "ich_ap1r0_el2",
+      8,
+      8
+     ],
+     [
+      "apl_lrtmr_el2",
+      16,
+      8
+     ]
+    ],
+    "arm_vncr_context_t": [
+     [
+      "__res_00_20",
+      0,
+      32
+     ],
+     [
+      "vttbr_el2",
+      32,
+      8
+     ],
+     [
+      "__res_28",
+      40,
+      8
+     ],
+     [
+      "vsttbr_el2",
+      48,
+      8
+     ],
+     [
+      "__res_38",
+      56,
+      8
+     ],
+     [
+      "vtcr_el2",
+      64,
+      8
+     ],
+     [
+      "vstcr_el2",
+      72,
+      8
+     ],
+     [
+      "vmpidr_el2",
+      80,
+      8
+     ],
+     [
+      "__res_58",
+      88,
+      8
+     ],
+     [
+      "cntvoff_el2",
+      96,
+      8
+     ],
+     [
+      "__res_68_78",
+      104,
+      16
+     ],
+     [
+      "hcr_el2",
+      120,
+      8
+     ],
+     [
+      "hstr_el2",
+      128,
+      8
+     ],
+     [
+      "vpidr_el2",
+      136,
+      8
+     ],
+     [
+      "tpidr_el2",
+      144,
+      8
+     ],
+     [
+      "__res_98_b0",
+      152,
+      24
+     ],
+     [
+      "vncr_el2",
+      176,
+      8
+     ],
+     [
+      "__res_b8_100",
+      184,
+      72
+     ],
+     [
+      "cpacr_el1",
+      256,
+      8
+     ],
+     [
+      "contextidr_el1",
+      264,
+      8
+     ],
+     [
+      "sctlr_el1",
+      272,
+      8
+     ],
+     [
+      "actlr_el1",
+      280,
+      8
+     ],
+     [
+      "tcr_el1",
+      288,
+      8
+     ],
+     [
+      "afsr0_el1",
+      296,
+      8
+     ],
+     [
+      "afsr1_el1",
+      304,
+      8
+     ],
+     [
+      "esr_el1",
+      312,
+      8
+     ],
+     [
+      "mair_el1",
+      320,
+      8
+     ],
+     [
+      "amair_el1",
+      328,
+      8
+     ],
+     [
+      "__res_158_150",
+      336,
+      8
+     ],
+     [
+      "mdscr_el1",
+      344,
+      8
+     ],
+     [
+      "spsr_el1",
+      352,
+      8
+     ],
+     [
+      "cntv_cval_el0",
+      360,
+      8
+     ],
+     [
+      "cntv_ctl_el0",
+      368,
+      8
+     ],
+     [
+      "cntp_cval_el0",
+      376,
+      8
+     ],
+     [
+      "cntp_ctl_el0",
+      384,
+      8
+     ],
+     [
+      "scxtnum_el1",
+      392,
+      8
+     ],
+     [
+      "tfsr_el1",
+      400,
+      8
+     ],
+     [
+      "__res_198_1a8",
+      408,
+      16
+     ],
+     [
+      "cntpoff_el2",
+      424,
+      8
+     ],
+     [
+      "__res_1b0_1b8",
+      432,
+      8
+     ],
+     [
+      "hfgrtr_el2",
+      440,
+      8
+     ],
+     [
+      "hfgwtr_el2",
+      448,
+      8
+     ],
+     [
+      "hfgitr_el2",
+      456,
+      8
+     ],
+     [
+      "hdfgrtr_el2",
+      464,
+      8
+     ],
+     [
+      "hdfgwtr_el2",
+      472,
+      8
+     ],
+     [
+      "zcr_el1",
+      480,
+      8
+     ],
+     [
+      "__res_1e8_1f0",
+      488,
+      8
+     ],
+     [
+      "smcr_el1",
+      496,
+      8
+     ],
+     [
+      "smprimap_el2",
+      504,
+      8
+     ],
+     [
+      "ttbr0_el1",
+      512,
+      8
+     ],
+     [
+      "__res_208_210",
+      520,
+      8
+     ],
+     [
+      "ttbr1_el1",
+      528,
+      8
+     ],
+     [
+      "__res_218_220",
+      536,
+      8
+     ],
+     [
+      "far_el1",
+      544,
+      8
+     ],
+     [
+      "__res_228_230",
+      552,
+      8
+     ],
+     [
+      "elr_el1",
+      560,
+      8
+     ],
+     [
+      "__res_238_240",
+      568,
+      8
+     ],
+     [
+      "sp_el1",
+      576,
+      8
+     ],
+     [
+      "__res_248_250",
+      584,
+      8
+     ],
+     [
+      "vbar_el1",
+      592,
+      8
+     ],
+     [
+      "__res_400_258",
+      600,
+      424
+     ],
+     [
+      "ich_lr_el2",
+      1024,
+      128
+     ],
+     [
+      "ich_ap0r_el2",
+      1152,
+      32
+     ],
+     [
+      "ich_ap1r_el2",
+      1184,
+      32
+     ],
+     [
+      "ich_hcr_el2",
+      1216,
+      8
+     ],
+     [
+      "ich_vmcr_el2",
+      1224,
+      8
+     ],
+     [
+      "__res_4d0_500",
+      1232,
+      48
+     ],
+     [
+      "vdisr_el2",
+      1280,
+      8
+     ],
+     [
+      "vsesr_el2",
+      1288,
+      8
+     ],
+     [
+      "__res_510_800",
+      1296,
+      752
+     ],
+     [
+      "pmblimitr_el1",
+      2048,
+      8
+     ],
+     [
+      "__res_808_810",
+      2056,
+      8
+     ],
+     [
+      "pmbptr_el1",
+      2064,
+      8
+     ],
+     [
+      "__res_818_820",
+      2072,
+      8
+     ],
+     [
+      "pmbsr_el1",
+      2080,
+      8
+     ],
+     [
+      "pmscr_el1",
+      2088,
+      8
+     ],
+     [
+      "pmsevfr_el1",
+      2096,
+      8
+     ],
+     [
+      "pmsicr_el1",
+      2104,
+      8
+     ],
+     [
+      "pmsirr_el1",
+      2112,
+      8
+     ],
+     [
+      "pmslatfr_el1",
+      2120,
+      8
+     ],
+     [
+      "__res_850_880",
+      2128,
+      48
+     ],
+     [
+      "trfcr_el1",
+      2176,
+      8
+     ],
+     [
+      "__res_888_1000",
+      2184,
+      1912
+     ]
+    ]
+   },
+   "builds": [
+    "26A428",
+    "26A434",
+    "26A5388g",
+    "26A5406e",
+    "26A5416b",
+    "26A5425a",
+    "26B5086k",
+    "26B5091g"
+   ],
+   "fields": {
+    "ro_amx_ptr": [
+     16728,
+     8
+    ],
+    "ro_controls": [
+     16432,
+     224
+    ],
+    "ro_exit_esr": [
+     16400,
+     8
+    ],
+    "ro_exit_far": [
+     16416,
+     8
+    ],
+    "ro_exit_hpfar": [
+     16424,
+     8
+    ],
+    "ro_exit_instr": [
+     16408,
+     8
+    ],
+    "ro_exit_reason": [
+     16392,
+     4
+    ],
+    "ro_ich_elrsr": [
+     16696,
+     8
+    ],
+    "ro_ich_misr": [
+     16688,
+     8
+    ],
+    "ro_ich_vtr": [
+     16680,
+     8
+    ],
+    "ro_sme_ptr": [
+     16720,
+     8
+    ],
+    "ro_state_dirty": [
+     16664,
+     8
+    ],
+    "ro_state_used": [
+     16672,
+     8
+    ],
+    "ro_state_valid": [
+     16656,
+     8
+    ],
+    "ro_svcr": [
+     16704,
+     8
+    ],
+    "ro_svl_b": [
+     16712,
+     2
+    ],
+    "ro_ver": [
+     16384,
+     8
+    ],
+    "rw_avncr": [
+     8192,
+     4096
+    ],
+    "rw_banked_sysregs": [
+     952,
+     208
+    ],
+    "rw_controls": [
+     2336,
+     224
+    ],
+    "rw_cpsr": [
+     272,
+     4
+    ],
+    "rw_dbgregs": [
+     1160,
+     544
+    ],
+    "rw_extregs": [
+     2584,
+     664
+    ],
+    "rw_fp": [
+     240,
+     8
+    ],
+    "rw_fpcr": [
+     836,
+     4
+    ],
+    "rw_fpsr": [
+     832,
+     4
+    ],
+    "rw_frozen": [
+     2560,
+     8
+    ],
+    "rw_guest_ticks": [
+     2576,
+     8
+    ],
+    "rw_ich_ap0r0": [
+     1704,
+     8
+    ],
+    "rw_ich_ap1r0": [
+     1712,
+     8
+    ],
+    "rw_lr": [
+     248,
+     8
+    ],
+    "rw_neon_q0": [
+     320,
+     512
+    ],
+    "rw_pc": [
+     264,
+     8
+    ],
+    "rw_shared_sysregs": [
+     848,
+     104
+    ],
+    "rw_sp": [
+     256,
+     8
+    ],
+    "rw_state_dirty": [
+     2568,
+     8
+    ],
+    "rw_timer": [
+     2440,
+     8
+    ],
+    "rw_vgic_sysregs": [
+     1704,
+     24
+    ],
+    "rw_vncr": [
+     4096,
+     4096
+    ],
+    "rw_vtimer_offset": [
+     2384,
+     8
+    ],
+    "rw_x0": [
+     8,
+     232
+    ]
+   },
+   "word": "0x2068797003000004"
   }
  }
 }

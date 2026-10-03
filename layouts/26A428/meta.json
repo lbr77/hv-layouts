@@ -1,0 +1,9 @@
+{
+ "build": "26A428",
+ "kdk_sha256": "7ce685e305d3bcee5e1d8fe9418c55c7e0bbc38075ab1841602444e9098a6efc",
+ "kernel": "Darwin Kernel Version 27.0.0: Tue Aug 11 21:02:57 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T8132",
+ "macos": 27,
+ "mirror": "dortania/KdkSupportPkg",
+ "release": "Kernel Debug Kit 27.0 build 26A428",
+ "soc": "t8132"
+}

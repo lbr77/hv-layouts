@@ -1,0 +1,9 @@
+{
+ "build": "25G76",
+ "kdk_sha256": "b527665e1d8a99207d61f06fac402f584c1afde3b4c4a5fdfe006a57a45f5bcf",
+ "kernel": "Darwin Kernel Version 25.6.0: Sat Jul 11 15:26:29 PDT 2026; root:xnu-12377.161.13~4/RELEASE_ARM64_T8132",
+ "macos": 26,
+ "mirror": "dortania/KdkSupportPkg",
+ "release": "Kernel Debug Kit 26.6.1 build 25G76",
+ "soc": "t8132"
+}
