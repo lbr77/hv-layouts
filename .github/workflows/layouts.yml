@@ -57,17 +57,19 @@ jobs:
         run: tools/fetch.sh "${{ matrix.build }}" work
       - name: Pick a kernel
         # The layout is the same in every SoC's kernel of a build; t8132 (M4)
-        # only exists from macOS 15.1, so older kits use the newest they have.
+        # only exists from macOS 15.1, so other kits use what they have.
         run: |
           python3 - >> "$GITHUB_ENV" <<'EOF'
           import json
           have = json.load(open("work/kernel_versions.json"))
-          for soc in ("t8132", "t8122", "t8112", "t8103"):
-              if "kernel.release." + soc in have:
-                  print("SOC=" + soc)
-                  break
-          else:
+          # Some betas carry only a few SoCs' kernels (24B5055e: t6020, t6030).
+          pref = ["t8132", "t8122", "t8112", "t8103"]
+          socs = [k[len("kernel.release."):] for k in have
+                  if k.startswith("kernel.release.t")]
+          socs.sort(key=lambda s: (pref.index(s) if s in pref else len(pref), s))
+          if not socs:
               raise SystemExit("no Apple silicon release kernel in this kit")
+          print("SOC=" + socs[0])
           EOF
       - name: Take the kernel and its dSYM out of it
         run: python3 tools/kdk_extract.py --dmg work/kdk.dmg work/kernels "$SOC"

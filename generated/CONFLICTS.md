@@ -1,3 +1,3 @@
-# Versions whose builds disagree
+# Versions that do not name one layout
 
 None.

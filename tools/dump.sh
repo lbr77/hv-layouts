@@ -28,9 +28,12 @@ grep -qs "^## arm_guest_rw_context_t size 0x4000" "$out/$build/layout.txt" || {
     exit 1
 }
 python3 "$here/hvver.py" "$kernel" > "$out/$build/version.txt"
-[ "$(wc -l < "$out/$build/version.txt")" -eq 1 ] || {
-    cat "$out/$build/version.txt" >&2
-    echo "dump.sh: expected exactly one ARM_HV_STATE_VER constant in $kernel" >&2
-    exit 1
-}
+# Before macOS 26.4 the kernel builds ARM_HV_STATE_VER in code and keeps no
+# copy as data, so there is nothing to find; the layout stands on its own and
+# collect.py groups builds by it, so an unknown version is not a failure.
+case $(wc -l < "$out/$build/version.txt" | tr -d ' ') in
+    1) ;;
+    0) echo "dump.sh: no ARM_HV_STATE_VER constant in $kernel; version unknown" >&2 ;;
+    *) echo "dump.sh: more than one ARM_HV_STATE_VER constant in $kernel; all kept" >&2 ;;
+esac
 cat "$out/$build/version.txt"

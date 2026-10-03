@@ -3,11 +3,18 @@
 #include <stdint.h>
 
 /* Offsets into the two-page hv guest context (RO page at +0x4000), and
- * sizes, of the fields a VMM touches.  0 size: not in this version. */
+ * sizes, of the fields a VMM touches.  0 size: not in this layout. */
 typedef struct { uint16_t off; uint8_t size; } ohv_hv_field_t;
 
+/*
+ * One entry per layout.  ver is the ARM_HV_STATE_VER its kernels report,
+ * or 0 where the kernels keep no such constant (before macOS 26.4): match
+ * those by build (kern.osversion) against `builds`, a space-separated list.
+ * A layout reported under several versions appears once per version.
+ */
 typedef struct {
-    uint64_t ver;              /* ARM_HV_STATE_VER */
+    uint64_t ver;
+    const char *id;
     const char *builds;
     ohv_hv_field_t rw_x0;
     ohv_hv_field_t rw_fp;
@@ -55,6 +62,7 @@ typedef struct {
 static const ohv_hv_layout_t ohv_hv_layouts[] = {
     { /* 3.0.0 */
         .ver = 0x2068797003000000,
+        .id = "8471e34eb817",
         .builds = "25E246 25E253 25E5233c 25F5042g 25F5058e 25F5068a 25F71 25F80 25F84 25G229 25G241 25G5043d 25G5052e 25G5057c 25G5065a 25G70 25G72 25G76 25G82 25G83",
         .rw_x0 = { 0x8, 232 },
         .rw_fp = { 0xf0, 8 },
@@ -100,7 +108,8 @@ static const ohv_hv_layout_t ohv_hv_layouts[] = {
     },
     { /* 3.0.2 */
         .ver = 0x2068797003000002,
-        .builds = "26A5353q",
+        .id = "dc1202a8be1a",
+        .builds = "26A5353q 26A5368g 26A5378n",
         .rw_x0 = { 0x8, 232 },
         .rw_fp = { 0xf0, 8 },
         .rw_lr = { 0xf8, 8 },
@@ -145,7 +154,8 @@ static const ohv_hv_layout_t ohv_hv_layouts[] = {
     },
     { /* 3.0.3 */
         .ver = 0x2068797003000003,
-        .builds = "26A5368g 26A5378n",
+        .id = "dc1202a8be1a",
+        .builds = "26A5353q 26A5368g 26A5378n",
         .rw_x0 = { 0x8, 232 },
         .rw_fp = { 0xf0, 8 },
         .rw_lr = { 0xf8, 8 },
@@ -190,6 +200,7 @@ static const ohv_hv_layout_t ohv_hv_layouts[] = {
     },
     { /* 3.0.4 */
         .ver = 0x2068797003000004,
+        .id = "45699c01ffac",
         .builds = "26A428 26A434 26A5388g 26A5406e 26A5416b 26A5425a 26B5086k 26B5091g",
         .rw_x0 = { 0x8, 232 },
         .rw_fp = { 0xf0, 8 },
