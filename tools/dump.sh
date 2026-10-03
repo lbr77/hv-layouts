@@ -13,11 +13,13 @@ lldb=${LLDB:-$(command -v lldb-18 || command -v lldb)}
 kernel=$kernels/kernel.release.$soc
 dwarf=$kernel.dSYM/Contents/Resources/DWARF/kernel.release.$soc
 mkdir -p "$out/$build"
+status=0
 "$lldb" --batch --no-lldbinit \
     -o "target create --symfile $dwarf $kernel" \
     -o "command script import $here/hvlayout.py" \
-    -o "hvlayout $out/$build/layout.txt" > "$out/$build/lldb.log" 2>&1
-grep -q "^## arm_guest_rw_context_t size 0x4000" "$out/$build/layout.txt" || {
+    -o "hvlayout $out/$build/layout.txt" > "$out/$build/lldb.log" 2>&1 || status=$?
+[ "$status" -eq 0 ] || echo "dump.sh: $lldb exited with $status" >&2
+grep -qs "^## arm_guest_rw_context_t size 0x4000" "$out/$build/layout.txt" || {
     cat "$out/$build/lldb.log" >&2
     echo "dump.sh: no arm_guest_rw_context_t in the DWARF of $kernel" >&2
     exit 1
