@@ -13,9 +13,12 @@ lldb=${LLDB:-$(command -v lldb-18 || command -v lldb)}
 kernel=$kernels/kernel.release.$soc
 dwarf=$kernel.dSYM/Contents/Resources/DWARF/kernel.release.$soc
 mkdir -p "$out/$build"
+# The layout comes from the dSYM's DWARF on its own: that is all it needs, and
+# Ubuntu's LLDB 18 dies with SIGBUS parsing the kernel binary itself.  The
+# kernel is still read for its version constant, below.
 status=0
 "$lldb" --batch --no-lldbinit \
-    -o "target create --symfile $dwarf $kernel" \
+    -o "target create $dwarf" \
     -o "command script import $here/hvlayout.py" \
     -o "hvlayout $out/$build/layout.txt" > "$out/$build/lldb.log" 2>&1 || status=$?
 [ "$status" -eq 0 ] || echo "dump.sh: $lldb exited with $status" >&2

@@ -21,7 +21,9 @@ def vkey(v):
 
 
 def main():
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 1 and not os.path.isdir(sys.argv[1]):
+        print("collect.py: nothing arrived in %s" % sys.argv[1])
+    elif len(sys.argv) > 1:
         for b in sorted(os.listdir(sys.argv[1])):
             src = os.path.join(sys.argv[1], b)
             if os.path.isfile(os.path.join(src, "layout.txt")):
