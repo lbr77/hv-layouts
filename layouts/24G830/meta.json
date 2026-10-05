@@ -1,0 +1,9 @@
+{
+ "build": "24G830",
+ "kdk_sha256": "9e2bb18ed726b805ffc009db30bc4bfe7539ed138746165600b0fd5a77562ed4",
+ "kernel": "Darwin Kernel Version 24.6.0: Tue Jul 21 20:51:25 PDT 2026; root:xnu-11417.140.69.711.44~1/RELEASE_ARM64_T8132",
+ "macos": 15,
+ "mirror": "dortania/KdkSupportPkg",
+ "release": "Kernel Debug Kit 15.7.9 build 24G830",
+ "soc": "t8132"
+}

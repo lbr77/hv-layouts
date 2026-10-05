@@ -1,0 +1,9 @@
+{
+ "build": "24G517",
+ "kdk_sha256": "ecdaee639a8a57a5776e7b9216373ec84906fc399fe94538375ac5e2d06c9ef2",
+ "kernel": "Darwin Kernel Version 24.6.0: Mon Jan 19 22:01:41 PST 2026; root:xnu-11417.140.69.708.3~1/RELEASE_ARM64_T8132",
+ "macos": 15,
+ "mirror": "dortania/KdkSupportPkg",
+ "release": "Kernel Debug Kit 15.7.4 build 24G517",
+ "soc": "t8132"
+}

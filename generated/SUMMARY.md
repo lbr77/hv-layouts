@@ -6,12 +6,23 @@ versions its kernels report; layouts with no version constant (before macOS 26.4
 
 | layout | versions | rw_dbgregs | rw_vgic_sysregs | rw_controls | rw_state_dirty | rw_extregs | ro_exit_esr | ro_state_valid | ro_ich_vtr | ro_svcr | ro_sme_ptr | builds |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 8b5b294984e8 | ? | 0x478/544 | - | 0x698/224 | 0x780/8 | 0x790/664 | 0x400c/4 | 0x4108/8 | 0x4120/4 | - | - | 23J319 .. 23J631 (2) |
+| 0a33aad489fd | ? | 0x478/544 | - | 0x698/224 | 0x780/8 | 0x790/664 | 0x400c/4 | 0x4108/8 | 0x4120/4 | 0x4130/8 | 0x4140/8 | 24G517 .. 24H32 (4) |
+| 6f0cdc4b3fca | ? | 0x478/544 | 0x698/16 | 0x6a8/216 | 0x788/8 | 0x798/664 | 0x400c/4 | 0x4100/8 | 0x4118/4 | 0x4128/8 | 0x4138/8 | 25D125 .. 25D2140 (2) |
 | 8471e34eb817 | 3.0.0 | 0x478/544 | 0x698/16 | 0x6a8/216 | 0x788/8 | 0x798/664 | 0x4010/8 | 0x4108/8 | 0x4120/8 | 0x4138/8 | 0x4148/8 | 25E246 .. 25G83 (20) |
 | dc1202a8be1a | 3.0.2 3.0.3 | 0x488/544 | 0x6a8/24 | 0x920/216 | 0xa00/8 | 0xa10/664 | 0x4010/8 | 0x4108/8 | 0x4120/8 | 0x4138/8 | 0x4148/8 | 26A5353q .. 26A5378n (3) |
 | 45699c01ffac | 3.0.4 | 0x488/544 | 0x6a8/24 | 0x920/224 | 0xa08/8 | 0xa18/664 | 0x4010/8 | 0x4110/8 | 0x4128/8 | 0x4140/8 | 0x4150/8 | 26A428 .. 26B5091g (8) |
 
 | build | macOS | version | layout | kernel | mirror's title |
 |---|---|---|---|---|---|
+| 23J319 | 14 | ? | 8b5b294984e8 | Darwin Kernel Version 23.6.0: Mon Jan 19 22:04:04 PST 2026; root:xnu-10063.141.1.710.3~1/RELEASE_ARM64_T8122 | Kernel Debug Kit 14.8.4 build 23J319 |
+| 23J631 | 14 | ? | 8b5b294984e8 | Darwin Kernel Version 23.6.0: Tue Jul 21 21:57:40 PDT 2026; root:xnu-10063.141.1.713.39~1/RELEASE_ARM64_T8122 | Kernel Debug Kit 14.8.9 build 23J631 |
+| 24G517 | 15 | ? | 0a33aad489fd | Darwin Kernel Version 24.6.0: Mon Jan 19 22:01:41 PST 2026; root:xnu-11417.140.69.708.3~1/RELEASE_ARM64_T8132 | Kernel Debug Kit 15.7.4 build 24G517 |
+| 24G830 | 15 | ? | 0a33aad489fd | Darwin Kernel Version 24.6.0: Tue Jul 21 20:51:25 PDT 2026; root:xnu-11417.140.69.711.44~1/RELEASE_ARM64_T8132 | Kernel Debug Kit 15.7.9 build 24G830 |
+| 24H23 | 15 | ? | 0a33aad489fd | Darwin Kernel Version 24.6.0: Sun Aug 23 20:37:17 PDT 2026; root:xnu-11417.140.69.712.69~1/RELEASE_ARM64_T8132 | Kernel Debug Kit 15.8 build 24H23 |
+| 24H32 | 15 | ? | 0a33aad489fd | Darwin Kernel Version 24.6.0: Sun Aug 23 20:37:17 PDT 2026; root:xnu-11417.140.69.712.69~1/RELEASE_ARM64_T8132 | Kernel Debug Kit 15.8.1 build 24H32 |
+| 25D125 | 26 | ? | 6f0cdc4b3fca | Darwin Kernel Version 25.3.0: Wed Jan 28 20:49:24 PST 2026; root:xnu-12377.81.4~5/RELEASE_ARM64_T8132 | Kernel Debug Kit 26.3 build 25D125 |
+| 25D2140 | 26 | ? | 6f0cdc4b3fca | Darwin Kernel Version 25.3.0: Wed Jan 28 20:54:55 PST 2026; root:xnu-12377.91.3~2/RELEASE_ARM64_T8132 | Kernel Debug Kit 26.3.2 build 25D2140 |
 | 25E246 | 26 | 3.0.0 | 8471e34eb817 | Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132 | Kernel Debug Kit 26.4 build 25E246 |
 | 25E253 | 26 | 3.0.0 | 8471e34eb817 | Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132 | Kernel Debug Kit 26.4.1 build 25E253 |
 | 25E5233c | 26 | 3.0.0 | 8471e34eb817 | Darwin Kernel Version 25.4.0: Thu Mar  5 22:43:32 PST 2026; root:xnu-12377.101.14~19/RELEASE_ARM64_T8132 | Kernel Debug Kit 26.4 build 25E5233c |

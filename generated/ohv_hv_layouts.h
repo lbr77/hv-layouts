@@ -62,6 +62,144 @@ typedef struct {
 } ohv_hv_layout_t;
 
 static const ohv_hv_layout_t ohv_hv_layouts[] = {
+    { /* no version constant */
+        0, /* ver */
+        "8b5b294984e8", /* id */
+        "23J319 23J631", /* builds */
+        { 0x8, 232 }, /* rw_x0 */
+        { 0xf0, 8 }, /* rw_fp */
+        { 0xf8, 8 }, /* rw_lr */
+        { 0x100, 8 }, /* rw_sp */
+        { 0x108, 8 }, /* rw_pc */
+        { 0x110, 4 }, /* rw_cpsr */
+        { 0x140, 512 }, /* rw_neon_q0 */
+        { 0x340, 4 }, /* rw_fpsr */
+        { 0x344, 4 }, /* rw_fpcr */
+        { 0x350, 104 }, /* rw_shared_sysregs */
+        { 0x3b8, 192 }, /* rw_banked_sysregs */
+        { 0x478, 544 }, /* rw_dbgregs */
+        { 0x0, 0 }, /* rw_vgic_sysregs */
+        { 0x0, 0 }, /* rw_ich_ap0r0 */
+        { 0x0, 0 }, /* rw_ich_ap1r0 */
+        { 0x698, 224 }, /* rw_controls */
+        { 0x6c8, 8 }, /* rw_vtimer_offset */
+        { 0x700, 8 }, /* rw_timer */
+        { 0x778, 8 }, /* rw_frozen */
+        { 0x780, 8 }, /* rw_state_dirty */
+        { 0x788, 8 }, /* rw_guest_ticks */
+        { 0x790, 664 }, /* rw_extregs */
+        { 0x1000, 4096 }, /* rw_vncr */
+        { 0x2000, 4096 }, /* rw_avncr */
+        { 0x4000, 8 }, /* ro_ver */
+        { 0x4008, 4 }, /* ro_exit_reason */
+        { 0x400c, 4 }, /* ro_exit_esr */
+        { 0x4010, 4 }, /* ro_exit_instr */
+        { 0x4018, 8 }, /* ro_exit_far */
+        { 0x4020, 8 }, /* ro_exit_hpfar */
+        { 0x4028, 224 }, /* ro_controls */
+        { 0x4108, 8 }, /* ro_state_valid */
+        { 0x4110, 8 }, /* ro_state_dirty */
+        { 0x4118, 8 }, /* ro_state_used */
+        { 0x4120, 4 }, /* ro_ich_vtr */
+        { 0x4124, 4 }, /* ro_ich_misr */
+        { 0x4128, 4 }, /* ro_ich_elrsr */
+        { 0x0, 0 }, /* ro_svcr */
+        { 0x0, 0 }, /* ro_svl_b */
+        { 0x0, 0 }, /* ro_sme_ptr */
+        { 0x0, 0 }, /* ro_amx_ptr */
+    },
+    { /* no version constant */
+        0, /* ver */
+        "0a33aad489fd", /* id */
+        "24G517 24G830 24H23 24H32", /* builds */
+        { 0x8, 232 }, /* rw_x0 */
+        { 0xf0, 8 }, /* rw_fp */
+        { 0xf8, 8 }, /* rw_lr */
+        { 0x100, 8 }, /* rw_sp */
+        { 0x108, 8 }, /* rw_pc */
+        { 0x110, 4 }, /* rw_cpsr */
+        { 0x140, 512 }, /* rw_neon_q0 */
+        { 0x340, 4 }, /* rw_fpsr */
+        { 0x344, 4 }, /* rw_fpcr */
+        { 0x350, 104 }, /* rw_shared_sysregs */
+        { 0x3b8, 192 }, /* rw_banked_sysregs */
+        { 0x478, 544 }, /* rw_dbgregs */
+        { 0x0, 0 }, /* rw_vgic_sysregs */
+        { 0x0, 0 }, /* rw_ich_ap0r0 */
+        { 0x0, 0 }, /* rw_ich_ap1r0 */
+        { 0x698, 224 }, /* rw_controls */
+        { 0x6c8, 8 }, /* rw_vtimer_offset */
+        { 0x700, 8 }, /* rw_timer */
+        { 0x778, 8 }, /* rw_frozen */
+        { 0x780, 8 }, /* rw_state_dirty */
+        { 0x788, 8 }, /* rw_guest_ticks */
+        { 0x790, 664 }, /* rw_extregs */
+        { 0x1000, 4096 }, /* rw_vncr */
+        { 0x2000, 4096 }, /* rw_avncr */
+        { 0x4000, 8 }, /* ro_ver */
+        { 0x4008, 4 }, /* ro_exit_reason */
+        { 0x400c, 4 }, /* ro_exit_esr */
+        { 0x4010, 4 }, /* ro_exit_instr */
+        { 0x4018, 8 }, /* ro_exit_far */
+        { 0x4020, 8 }, /* ro_exit_hpfar */
+        { 0x4028, 224 }, /* ro_controls */
+        { 0x4108, 8 }, /* ro_state_valid */
+        { 0x4110, 8 }, /* ro_state_dirty */
+        { 0x4118, 8 }, /* ro_state_used */
+        { 0x4120, 4 }, /* ro_ich_vtr */
+        { 0x4124, 4 }, /* ro_ich_misr */
+        { 0x4128, 4 }, /* ro_ich_elrsr */
+        { 0x4130, 8 }, /* ro_svcr */
+        { 0x4138, 2 }, /* ro_svl_b */
+        { 0x4140, 8 }, /* ro_sme_ptr */
+        { 0x0, 0 }, /* ro_amx_ptr */
+    },
+    { /* no version constant */
+        0, /* ver */
+        "6f0cdc4b3fca", /* id */
+        "25D125 25D2140", /* builds */
+        { 0x8, 232 }, /* rw_x0 */
+        { 0xf0, 8 }, /* rw_fp */
+        { 0xf8, 8 }, /* rw_lr */
+        { 0x100, 8 }, /* rw_sp */
+        { 0x108, 8 }, /* rw_pc */
+        { 0x110, 4 }, /* rw_cpsr */
+        { 0x140, 512 }, /* rw_neon_q0 */
+        { 0x340, 4 }, /* rw_fpsr */
+        { 0x344, 4 }, /* rw_fpcr */
+        { 0x350, 104 }, /* rw_shared_sysregs */
+        { 0x3b8, 192 }, /* rw_banked_sysregs */
+        { 0x478, 544 }, /* rw_dbgregs */
+        { 0x698, 16 }, /* rw_vgic_sysregs */
+        { 0x698, 8 }, /* rw_ich_ap0r0 */
+        { 0x6a0, 8 }, /* rw_ich_ap1r0 */
+        { 0x6a8, 216 }, /* rw_controls */
+        { 0x6d8, 8 }, /* rw_vtimer_offset */
+        { 0x710, 8 }, /* rw_timer */
+        { 0x780, 8 }, /* rw_frozen */
+        { 0x788, 8 }, /* rw_state_dirty */
+        { 0x790, 8 }, /* rw_guest_ticks */
+        { 0x798, 664 }, /* rw_extregs */
+        { 0x1000, 4096 }, /* rw_vncr */
+        { 0x2000, 4096 }, /* rw_avncr */
+        { 0x4000, 8 }, /* ro_ver */
+        { 0x4008, 4 }, /* ro_exit_reason */
+        { 0x400c, 4 }, /* ro_exit_esr */
+        { 0x4010, 4 }, /* ro_exit_instr */
+        { 0x4018, 8 }, /* ro_exit_far */
+        { 0x4020, 8 }, /* ro_exit_hpfar */
+        { 0x4028, 216 }, /* ro_controls */
+        { 0x4100, 8 }, /* ro_state_valid */
+        { 0x4108, 8 }, /* ro_state_dirty */
+        { 0x4110, 8 }, /* ro_state_used */
+        { 0x4118, 4 }, /* ro_ich_vtr */
+        { 0x411c, 4 }, /* ro_ich_misr */
+        { 0x4120, 4 }, /* ro_ich_elrsr */
+        { 0x4128, 8 }, /* ro_svcr */
+        { 0x4130, 2 }, /* ro_svl_b */
+        { 0x4138, 8 }, /* ro_sme_ptr */
+        { 0x4140, 8 }, /* ro_amx_ptr */
+    },
     { /* 3.0.0 */
         0x2068797003000000, /* ver */
         "8471e34eb817", /* id */

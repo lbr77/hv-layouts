@@ -1,0 +1,9 @@
+{
+ "build": "25D125",
+ "kdk_sha256": "04a9461ff823d50f5442ddae9e947b0cecc501a7eaf114e7db28e8c040831146",
+ "kernel": "Darwin Kernel Version 25.3.0: Wed Jan 28 20:49:24 PST 2026; root:xnu-12377.81.4~5/RELEASE_ARM64_T8132",
+ "macos": 26,
+ "mirror": "dortania/KdkSupportPkg",
+ "release": "Kernel Debug Kit 26.3 build 25D125",
+ "soc": "t8132"
+}

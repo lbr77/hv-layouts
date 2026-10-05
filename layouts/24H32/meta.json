@@ -1,0 +1,9 @@
+{
+ "build": "24H32",
+ "kdk_sha256": "658a7905a47f6c788264b7aaac7a8f6f9e1f387cc41ae8ce227244471ef6def1",
+ "kernel": "Darwin Kernel Version 24.6.0: Sun Aug 23 20:37:17 PDT 2026; root:xnu-11417.140.69.712.69~1/RELEASE_ARM64_T8132",
+ "macos": 15,
+ "mirror": "dortania/KdkSupportPkg",
+ "release": "Kernel Debug Kit 15.8.1 build 24H32",
+ "soc": "t8132"
+}
