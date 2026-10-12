@@ -1,0 +1,9 @@
+{
+ "build": "23J220",
+ "kdk_sha256": "a267082b654a2328b521d1763c363c72fb22cea32c1fb55106af50850bec7ee3",
+ "kernel": "Darwin Kernel Version 23.6.0: Wed Nov  5 21:49:14 PST 2025; root:xnu-10063.141.1.708.2~1/RELEASE_ARM64_T8122",
+ "macos": 14,
+ "mirror": "dortania/KdkSupportPkg",
+ "release": "Kernel Debug Kit 14.8.3 build 23J220",
+ "soc": "t8122"
+}

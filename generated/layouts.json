@@ -1,5 +1,16 @@
 {
  "builds": {
+  "23J220": {
+   "build": "23J220",
+   "kdk_sha256": "a267082b654a2328b521d1763c363c72fb22cea32c1fb55106af50850bec7ee3",
+   "kernel": "Darwin Kernel Version 23.6.0: Wed Nov  5 21:49:14 PST 2025; root:xnu-10063.141.1.708.2~1/RELEASE_ARM64_T8122",
+   "layout": "8b5b294984e8",
+   "macos": 14,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 14.8.3 build 23J220",
+   "soc": "t8122",
+   "version": null
+  },
   "23J319": {
    "build": "23J319",
    "kdk_sha256": "3da166ce3c481bd8cd5014f76bbf2ef9251d42f0026b7337823d13d068c14998",
@@ -20,6 +31,17 @@
    "mirror": "dortania/KdkSupportPkg",
    "release": "Kernel Debug Kit 14.8.9 build 23J631",
    "soc": "t8122",
+   "version": null
+  },
+  "24G419": {
+   "build": "24G419",
+   "kdk_sha256": "39653d7ea22c24a5eaeccedde1ba5bcd0599be0c415e3e0b732b228f09bf184a",
+   "kernel": "Darwin Kernel Version 24.6.0: Wed Nov  5 21:34:00 PST 2025; root:xnu-11417.140.69.705.2~1/RELEASE_ARM64_T8132",
+   "layout": "0a33aad489fd",
+   "macos": 15,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 15.7.3 build 24G419",
+   "soc": "t8132",
    "version": null
   },
   "24G517": {
@@ -66,6 +88,39 @@
    "soc": "t8132",
    "version": null
   },
+  "25C5037j": {
+   "build": "25C5037j",
+   "kdk_sha256": "33f90e813517c1b8d6fec6b47bc2df7279007a18d3f121e8b010f925d1046ba6",
+   "kernel": "Darwin Kernel Version 25.2.0: Tue Nov  4 20:46:18 PST 2025; root:xnu-12377.60.50.501.1~2/RELEASE_ARM64_T8132",
+   "layout": "6f0cdc4b3fca",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.2 build 25C5037j",
+   "soc": "t8132",
+   "version": null
+  },
+  "25C5048a": {
+   "build": "25C5048a",
+   "kdk_sha256": "241a19070ec007b5c1afe01b8e12c72bfcd93c05d90a377d059ba06660505b9a",
+   "kernel": "Darwin Kernel Version 25.2.0: Thu Nov 13 23:28:51 PST 2025; root:xnu-12377.61.11~7/RELEASE_ARM64_T8132",
+   "layout": "6f0cdc4b3fca",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.2 build 25C5048a",
+   "soc": "t8132",
+   "version": null
+  },
+  "25C56": {
+   "build": "25C56",
+   "kdk_sha256": "db163f75110e7e79aafa580396285275df1a7a0105da82cf1a05912a5e24c401",
+   "kernel": "Darwin Kernel Version 25.2.0: Tue Nov 18 21:08:48 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T8132",
+   "layout": "6f0cdc4b3fca",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.2 build 25C56",
+   "soc": "t8132",
+   "version": null
+  },
   "25D125": {
    "build": "25D125",
    "kdk_sha256": "04a9461ff823d50f5442ddae9e947b0cecc501a7eaf114e7db28e8c040831146",
@@ -77,6 +132,17 @@
    "soc": "t8132",
    "version": null
   },
+  "25D2128": {
+   "build": "25D2128",
+   "kdk_sha256": "6242e437e4141a1eae99ceaa6980a60ff9433daa3dd1eb2b7d0bab45f2a16e40",
+   "kernel": "Darwin Kernel Version 25.3.0: Wed Jan 28 20:54:55 PST 2026; root:xnu-12377.91.3~2/RELEASE_ARM64_T8132",
+   "layout": "6f0cdc4b3fca",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.3.1 build 25D2128",
+   "soc": "t8132",
+   "version": null
+  },
   "25D2140": {
    "build": "25D2140",
    "kdk_sha256": "afb07bddacf9b6200b9e0849d62745779966bff82d49d0fe450e2078e169b0d8",
@@ -85,6 +151,17 @@
    "macos": 26,
    "mirror": "dortania/KdkSupportPkg",
    "release": "Kernel Debug Kit 26.3.2 build 25D2140",
+   "soc": "t8132",
+   "version": null
+  },
+  "25D5087f": {
+   "build": "25D5087f",
+   "kdk_sha256": "8d47ae70eea23e5811c211b1485eb096a64b4364556d13aac399eb22e8d822b9",
+   "kernel": "Darwin Kernel Version 25.3.0: Fri Dec  5 23:13:21 PST 2025; root:xnu-12377.80.260.0.1~42/RELEASE_ARM64_T8132",
+   "layout": "6f0cdc4b3fca",
+   "macos": 26,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 26.3 build 25D5087f",
    "soc": "t8132",
    "version": null
   },
@@ -426,6 +503,17 @@
    "macos": 27,
    "mirror": "dortania/KdkSupportPkg",
    "release": "Kernel Debug Kit 27.2 build 26B5091g",
+   "soc": "t8132",
+   "version": "3.0.4"
+  },
+  "26B5101f": {
+   "build": "26B5101f",
+   "kdk_sha256": "9b08ae70a99312b5e2804f35afc601b9436bfd807b1338f5daad4d622d6b6a7d",
+   "kernel": "Darwin Kernel Version 27.2.0: Tue Sep 29 21:47:26 PDT 2026; root:xnu-13432.40.177.0.3~56/RELEASE_ARM64_T8132",
+   "layout": "45699c01ffac",
+   "macos": 27,
+   "mirror": "dortania/KdkSupportPkg",
+   "release": "Kernel Debug Kit 27.2 build 26B5101f",
    "soc": "t8132",
    "version": "3.0.4"
   }
@@ -1770,6 +1858,7 @@
     ]
    },
    "builds": [
+    "23J220",
     "23J319",
     "23J631"
    ],
@@ -3271,6 +3360,7 @@
     ]
    },
    "builds": [
+    "24G419",
     "24G517",
     "24G830",
     "24H23",
@@ -4789,8 +4879,13 @@
     ]
    },
    "builds": [
+    "25C5037j",
+    "25C5048a",
+    "25C56",
     "25D125",
-    "25D2140"
+    "25D2128",
+    "25D2140",
+    "25D5087f"
    ],
    "fields": {
     "ro_amx_ptr": [
@@ -9444,7 +9539,8 @@
     "26A5416b",
     "26A5425a",
     "26B5086k",
-    "26B5091g"
+    "26B5091g",
+    "26B5101f"
    ],
    "fields": {
     "ro_amx_ptr": [

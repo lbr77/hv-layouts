@@ -65,7 +65,7 @@ static const ohv_hv_layout_t ohv_hv_layouts[] = {
     { /* no version constant */
         0, /* ver */
         "8b5b294984e8", /* id */
-        "23J319 23J631", /* builds */
+        "23J220 23J319 23J631", /* builds */
         { 0x8, 232 }, /* rw_x0 */
         { 0xf0, 8 }, /* rw_fp */
         { 0xf8, 8 }, /* rw_lr */
@@ -111,7 +111,7 @@ static const ohv_hv_layout_t ohv_hv_layouts[] = {
     { /* no version constant */
         0, /* ver */
         "0a33aad489fd", /* id */
-        "24G517 24G830 24H23 24H32", /* builds */
+        "24G419 24G517 24G830 24H23 24H32", /* builds */
         { 0x8, 232 }, /* rw_x0 */
         { 0xf0, 8 }, /* rw_fp */
         { 0xf8, 8 }, /* rw_lr */
@@ -157,7 +157,7 @@ static const ohv_hv_layout_t ohv_hv_layouts[] = {
     { /* no version constant */
         0, /* ver */
         "6f0cdc4b3fca", /* id */
-        "25D125 25D2140", /* builds */
+        "25C5037j 25C5048a 25C56 25D125 25D2128 25D2140 25D5087f", /* builds */
         { 0x8, 232 }, /* rw_x0 */
         { 0xf0, 8 }, /* rw_fp */
         { 0xf8, 8 }, /* rw_lr */
@@ -341,7 +341,7 @@ static const ohv_hv_layout_t ohv_hv_layouts[] = {
     { /* 3.0.4 */
         0x2068797003000004, /* ver */
         "45699c01ffac", /* id */
-        "26A428 26A434 26A5388g 26A5406e 26A5416b 26A5425a 26B5086k 26B5091g", /* builds */
+        "26A428 26A434 26A5388g 26A5406e 26A5416b 26A5425a 26B5086k 26B5091g 26B5101f", /* builds */
         { 0x8, 232 }, /* rw_x0 */
         { 0xf0, 8 }, /* rw_fp */
         { 0xf8, 8 }, /* rw_lr */
